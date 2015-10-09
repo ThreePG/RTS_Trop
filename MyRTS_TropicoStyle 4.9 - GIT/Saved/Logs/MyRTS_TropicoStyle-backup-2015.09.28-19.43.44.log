@@ -1,0 +1,693 @@
+﻿[2015.09.29-00.40.07:160][  0]Log file open, 09/28/15 17:40:07
+[2015.09.29-00.40.07:160][  0]LogInit:Display: Running engine for game: MyRTS_TropicoStyle
+[2015.09.29-00.40.07:160][  0]LogInit:Display: RandInit(-1743375324) SRandInit(-1743375323).
+[2015.09.29-00.40.07:160][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.29-00.40.07:160][  0]LogStats: Stats thread started at 0.084646
+[2015.09.29-00.40.07:160][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.29-00.40.07:160][  0]LogInit: API Version: 2672455
+[2015.09.29-00.40.07:160][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.29-00.40.07:160][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.29-00.40.07:160][  0]LogInit: Build Configuration: Development
+[2015.09.29-00.40.07:160][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.29-00.40.07:160][  0]LogInit: Command line:  
+[2015.09.29-00.40.07:160][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.29-00.40.07:160][  0]LogInit: Rocket: 1
+[2015.09.29-00.40.07:169][  0]LogInit: Using libcurl 7.41.0
+[2015.09.29-00.40.07:169][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.29-00.40.07:169][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.29-00.40.07:169][  0]LogInit:  - other features:
+[2015.09.29-00.40.07:169][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.29-00.40.07:169][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.29-00.40.07:169][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.29-00.40.07:169][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.29-00.40.07:169][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.29-00.40.07:169][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.29-00.40.07:169][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.29-00.40.07:169][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.29-00.40.07:169][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.29-00.40.07:169][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.29-00.40.07:175][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.29-00.40.07:182][  0]LogInit: Object subsystem initialized
+[2015.09.29-00.40.07:184][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.29-00.40.07:184][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.29-00.40.07:191][  0]LogInit: Computer: JTSMITHFS111
+[2015.09.29-00.40.07:191][  0]LogInit: User: jtsmith
+[2015.09.29-00.40.07:191][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.29-00.40.07:191][  0]LogInit: High frequency timer resolution =3.312958 MHz
+[2015.09.29-00.40.07:191][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.09.29-00.40.07:191][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.29-00.40.07:191][  0]LogMemory: Process Physical Memory: 56.43 MB used, 56.43 MB peak
+[2015.09.29-00.40.07:191][  0]LogMemory: Process Virtual Memory: 58.09 MB used, 58.09 MB peak
+[2015.09.29-00.40.07:191][  0]LogMemory: Physical Memory: 3374.18 MB used, 8146.45 MB total
+[2015.09.29-00.40.07:191][  0]LogMemory: Virtual Memory: 340.08 MB used, 8388608.00 MB total
+[2015.09.29-00.40.07:287][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.29-00.40.08:004][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570 (Feature Level 11_0)
+[2015.09.29-00.40.08:004][  0]LogD3D11RHI: Adapter has 1008MB of dedicated video memory, 0MB of dedicated system memory, and 3817MB of shared system memory, 1 output[s]
+[2015.09.29-00.40.08:004][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.29-00.40.08:017][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.29-00.40.08:020][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2015.09.29-00.40.08:030][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.29-00.40.08:185][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Intermediate/Shaders/WorkingDirectory/7156/).
+[2015.09.29-00.40.08:186][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Intermediate/Shaders/tmp/440C79594484C273734CD792193957D1/'.
+[2015.09.29-00.40.08:186][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.29-00.40.10:448][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.29-00.40.10:453][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.29-00.40.10:457][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.29-00.40.10:462][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.29-00.40.10:467][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.29-00.40.10:472][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.29-00.40.10:475][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.29-00.40.10:479][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.29-00.40.10:482][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.29-00.40.10:485][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.29-00.40.10:489][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.29-00.40.10:492][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.29-00.40.10:493][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.29-00.40.10:511][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.29-00.40.10:514][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.29-00.40.10:517][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.29-00.40.10:522][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.29-00.40.10:522][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.29-00.40.10:735][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.29-00.40.11:123][  0]LogDerivedDataCache: Loaded boot cache 0.39s 41MB C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.29-00.40.11:123][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.29-00.40.11:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.29-00.40.11:123][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.29-00.40.11:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.29-00.40.11:123][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.29-00.40.11:297][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.29-00.40.11:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jtsmith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.29-00.40.15:277][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.29-00.40.15:288][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.29-00.40.15:567][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.29-00.40.15:567][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.29-00.40.18:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.29-00.40.39:491][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.29-00.40.40:305][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.09.29-00.40.45:132][  0]SourceControl: Info Source control is disabled
+[2015.09.29-00.40.45:404][  0]SourceControl: Info Source control is disabled
+[2015.09.29-00.40.47:078][  0]SourceControl: Info Source control is disabled
+[2015.09.29-00.40.47:160][  0]SourceControl: Info Source control is disabled
+[2015.09.29-00.40.49:258][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.29-00.40.49:922][  0]LogObj: 28380 objects as part of root set at end of initial load.
+[2015.09.29-00.40.49:922][  0]LogUObjectAllocator: 6044392 out of 0 bytes used by permanent object pool.
+[2015.09.29-00.40.52:120][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.51s
+[2015.09.29-00.40.52:263][  0]LogEngine: Initializing Engine...
+[2015.09.29-00.40.52:338][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.09.29-00.40.52:397][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.29-00.40.53:599][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.29-00.40.53:879][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.29-00.40.54:065][  0]LogInit: FAudioDevice initialized.
+[2015.09.29-00.40.54:086][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.29-00.40.54:088][  0]LogInit: Texture streaming: Enabled
+[2015.09.29-00.40.54:107][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.29-00.40.54:107][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.29-00.40.54:108][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6fa6e3274a8d5d72a75cbcbef6d297a7|3b8075bc1ed94341b886f5e4c6e1b23d|13e13887-07aa-43da-a8ee-6e00c985f4a0
+[2015.09.29-00.40.54:108][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.29-00.40.54:904][  0]LogInit: Transaction tracking system initialized
+[2015.09.29-00.40.55:189][  0]BlueprintLog: New page: Editor Load
+[2015.09.29-00.40.59:094][  0]LocalizationService: Info Localization service is disabled
+[2015.09.29-00.41.02:518][  0]LogConsoleResponse:Display: 
+[2015.09.29-00.41.06:964][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.29-00.41.11:174][  0]SourceControl: Info Source control is disabled
+[2015.09.29-00.41.11:253][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.29-00.41.11:420][  0]LightingResults: New page: Lighting Build
+[2015.09.29-00.41.11:508][  0]MapCheck: New page: Map Check
+[2015.09.29-00.41.11:508][  0]LightingResults: New page: Lighting Build
+[2015.09.29-00.41.11:517][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024197420
+[2015.09.29-00.41.13:996][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buildings/Commercial/Restaurant_BP.Restaurant_BP_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.29-00.41.22:306][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.09.29-00.41.24:588][  0]LogEditorServer: Finished looking for orphan Actors (0.013 secs)
+[2015.09.29-00.41.24:654][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.29-00.41.24:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.668ms to complete.
+[2015.09.29-00.41.24:760][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 13.555
+[2015.09.29-00.41.25:289][  0]LogCollectionManager: Loaded 0 collections in 0.002247 seconds
+[2015.09.29-00.41.25:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Collections/' took 0.01s
+[2015.09.29-00.41.25:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/Developers/jtsmith/Collections/' took 0.01s
+[2015.09.29-00.41.25:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/Collections/' took 0.01s
+[2015.09.29-00.41.25:429][  0]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 1874 classes and 335 folders.
+[2015.09.29-00.41.25:491][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.09.29-00.41.25:507][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.29-00.41.26:829][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.29-00.41.26:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.29-00.41.27:098][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.29-00.41.27:121][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.29-00.41.27:142][  0]LogLoad: Full Startup: 80.77 seconds (BP compile: 1.95 seconds)
+[2015.09.29-00.41.27:593][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.09.29-00.41.27:828][  0]LogRenderer: Reallocating scene render targets to support 1100x676 (Frame:2).
+[2015.09.29-00.41.27:966][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.29-00.41.29:157][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:21B9
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:240D
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1A43
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1BD1
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0AEB
+[2015.09.29-00.41.30:242][  3]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:0AEB
+[2015.09.29-00.41.30:670][  4]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:21B9
+[2015.09.29-00.41.30:670][  4]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2015.09.29-00.41.30:670][  4]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2015.09.29-00.41.30:670][  4]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:240D
+[2015.09.29-00.41.30:670][  4]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:ExecuteUbergraph_CameraPawnController:1A43
+[2015.09.29-00.41.30:670][  4]LogScript:Warning: Accessed None 'Camera_Pawn'
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:0028
+[2015.09.29-00.41.30:671][  4]LogScript:Warning: Accessed None
+	CameraPawnController_C /Engine/Transient.World_5:PersistentLevel.CameraPawnController_C_0
+	Function /Game/TopDownBP/Blueprints/CameraPawnController.CameraPawnController_C:MovementSpeedCalculation:003D
+[2015.09.29-00.41.31:336][ 24]LogAssetRegistry: Asset discovery search completed in 51.0371 seconds
+[2015.09.29-00.41.31:336][ 24]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.29-00.41.31:336][ 24]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2015.09.29-00.41.42:576][903]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.29-00.41.48:759][ 63]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.29-00.43.56:792][162]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.PackageMetaData'
+[2015.09.29-00.43.56:792][162]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_10.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.PackageMetaData'
+[2015.09.29-00.43.56:792][162]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_2.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.PackageMetaData'
+[2015.09.29-00.43.56:792][162]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_4.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.PackageMetaData'
+[2015.09.29-00.43.56:792][162]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_9.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_4' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.PackageMetaData'
+[2015.09.29-00.43.56:833][162]LogSavePackage: Save=1.910981ms
+[2015.09.29-00.43.56:833][162]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BB436FA8364479DF42E92BA88A6E9B4D20.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BB.uasset'
+[2015.09.29-00.43.56:835][162]LogSavePackage: Total save time: 4.068572ms
+[2015.09.29-00.43.56:835][162]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BB.uasset
+[2015.09.29-00.43.56:869][162]LogSavePackage: Save=21.762123ms
+[2015.09.29-00.43.56:869][162]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BTF43198574C126910C7B039B9999F6486.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.09.29-00.43.56:871][162]LogSavePackage: Total save time: 23.860246ms
+[2015.09.29-00.43.56:871][162]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.09.29-00.43.56:931][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-00.43.56:931][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.29-00.43.57:241][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036EE7A60
+[2015.09.29-00.43.57:242][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DF79620
+[2015.09.29-00.43.57:456][162]LogSavePackage: Save=31.230097ms
+[2015.09.29-00.43.57:456][162]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIControllerD03E33B34666B0B13E64F494718FD5DF.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-00.43.57:457][162]LogSavePackage: Total save time: 68.744611ms
+[2015.09.29-00.43.57:457][162]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-00.43.57:514][162]LogSavePackage: Save=30.048374ms
+[2015.09.29-00.43.57:514][162]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController5267DB4243746A87C1B908B3F362F711.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-00.43.57:515][162]LogSavePackage: Total save time: 49.583785ms
+[2015.09.29-00.43.57:515][162]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-00.53.50:522][275]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.53.55:957][811]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.04:760][728]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.04:766][728]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.04:772][728]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.04:787][728]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.06:411][893]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.06:426][893]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.08:323][ 67]BlueprintLog: New page: Compile StopMoveToWork_TASK
+[2015.09.29-00.54.08:460][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-00.54.08:460][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.09.29-00.54.08:488][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000400BBA60
+[2015.09.29-00.54.08:488][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FCD7420
+[2015.09.29-00.54.08:494][ 67]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.08:497][ 67]BlueprintEditorCompileResults: Info [0842.11] Compile of StopMoveToWork_TASK successful! [in 173 ms]
+[2015.09.29-00.54.08:508][ 67]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.15:310][754]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.16:489][872]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.29:195][ 21]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'StopMoveToWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.SKEL_StopMoveToWork_TASK_C'
+[2015.09.29-00.54.48:868][225]BlueprintLog: New page: Compile StopMoveToWork_TASK
+[2015.09.29-00.54.48:960][225]BlueprintEditorCompileResults: Info [0882.57] Compile of StopMoveToWork_TASK successful! [in 91 ms]
+[2015.09.29-00.54.51:133][419]LogSavePackage: Save=44.584930ms
+[2015.09.29-00.54.51:133][419]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/StopMoveToWork_TASK0322E6B14CA8D8A5E8ED00A9FEEE1FA4.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.uasset'
+[2015.09.29-00.54.51:135][419]LogSavePackage: Total save time: 66.884339ms
+[2015.09.29-00.54.51:135][419]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.uasset
+[2015.09.29-00.56.54:734][786]LogLinker:Warning: Can't find file '/Game/TopDownBP/Blueprints/AI/CheckJobValid_DEC'
+[2015.09.29-01.01.38:529][815]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.01.39:320][870]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.01.40:051][934]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.01.49:156][702]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.02.07:137][377]BlueprintLog: New page: Compile NewAICharacter_BP
+[2015.09.29-01.02.07:217][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772.EdGraphPin_91055. Try refresh all nodes.
+[2015.09.29-01.02.07:217][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772.EdGraphPin_91054. Try refresh all nodes.
+[2015.09.29-01.02.07:217][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772.EdGraphPin_91053. Try refresh all nodes.
+[2015.09.29-01.02.07:217][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_10772.EdGraphPin_91052. Try refresh all nodes.
+[2015.09.29-01.02.07:219][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_7629 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_7629.EdGraphPin_95027. Try refresh all nodes.
+[2015.09.29-01.02.07:219][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_7629 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_CallFunction_7629.EdGraphPin_95026. Try refresh all nodes.
+[2015.09.29-01.02.07:220][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94885. Try refresh all nodes.
+[2015.09.29-01.02.07:220][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94884. Try refresh all nodes.
+[2015.09.29-01.02.07:220][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94883. Try refresh all nodes.
+[2015.09.29-01.02.07:220][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94882. Try refresh all nodes.
+[2015.09.29-01.02.07:220][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94881. Try refresh all nodes.
+[2015.09.29-01.02.07:220][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.AssignWork_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94880. Try refresh all nodes.
+[2015.09.29-01.02.07:230][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_CallFunction_7752 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_CallFunction_7752.EdGraphPin_89352. Try refresh all nodes.
+[2015.09.29-01.02.07:230][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_CallFunction_7752 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_CallFunction_7752.EdGraphPin_89351. Try refresh all nodes.
+[2015.09.29-01.02.07:230][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_CallFunction_7752 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_CallFunction_7752.EdGraphPin_89350. Try refresh all nodes.
+[2015.09.29-01.02.07:232][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_90270. Try refresh all nodes.
+[2015.09.29-01.02.07:232][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_90269. Try refresh all nodes.
+[2015.09.29-01.02.07:232][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_90268. Try refresh all nodes.
+[2015.09.29-01.02.07:232][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_90267. Try refresh all nodes.
+[2015.09.29-01.02.07:233][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_90266. Try refresh all nodes.
+[2015.09.29-01.02.07:233][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.CheckForWork_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_90265. Try refresh all nodes.
+[2015.09.29-01.02.07:234][377]LogBlueprint:Error: Broken Node: K2Node_VariableGet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_VariableGet_972 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_VariableGet_972.EdGraphPin_84150. Try refresh all nodes.
+[2015.09.29-01.02.07:234][377]LogBlueprint:Error: Broken Node: K2Node_VariableGet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_VariableGet_972 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_VariableGet_972.EdGraphPin_84149. Try refresh all nodes.
+[2015.09.29-01.02.07:236][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_85061. Try refresh all nodes.
+[2015.09.29-01.02.07:236][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_85060. Try refresh all nodes.
+[2015.09.29-01.02.07:236][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_85059. Try refresh all nodes.
+[2015.09.29-01.02.07:236][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_85058. Try refresh all nodes.
+[2015.09.29-01.02.07:236][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_85057. Try refresh all nodes.
+[2015.09.29-01.02.07:236][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.CheckIsWorking_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_85056. Try refresh all nodes.
+[2015.09.29-01.02.07:237][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_CallFunction_7380 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_CallFunction_7380.EdGraphPin_94144. Try refresh all nodes.
+[2015.09.29-01.02.07:237][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_CallFunction_7380 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_CallFunction_7380.EdGraphPin_94143. Try refresh all nodes.
+[2015.09.29-01.02.07:239][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_91255. Try refresh all nodes.
+[2015.09.29-01.02.07:239][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_91254. Try refresh all nodes.
+[2015.09.29-01.02.07:239][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_91253. Try refresh all nodes.
+[2015.09.29-01.02.07:239][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_91252. Try refresh all nodes.
+[2015.09.29-01.02.07:239][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_91251. Try refresh all nodes.
+[2015.09.29-01.02.07:239][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.CheckJobValid_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_91250. Try refresh all nodes.
+[2015.09.29-01.02.07:240][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_CallFunction_6667 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_CallFunction_6667.EdGraphPin_89024. Try refresh all nodes.
+[2015.09.29-01.02.07:240][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_CallFunction_6667 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_CallFunction_6667.EdGraphPin_89023. Try refresh all nodes.
+[2015.09.29-01.02.07:242][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_86155. Try refresh all nodes.
+[2015.09.29-01.02.07:242][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_86154. Try refresh all nodes.
+[2015.09.29-01.02.07:242][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_86153. Try refresh all nodes.
+[2015.09.29-01.02.07:242][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_86152. Try refresh all nodes.
+[2015.09.29-01.02.07:242][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_86151. Try refresh all nodes.
+[2015.09.29-01.02.07:242][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.IsAtOffice_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_86150. Try refresh all nodes.
+[2015.09.29-01.02.07:243][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_CallFunction_5556 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_CallFunction_5556.EdGraphPin_84204. Try refresh all nodes.
+[2015.09.29-01.02.07:243][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_CallFunction_5556 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_CallFunction_5556.EdGraphPin_84203. Try refresh all nodes.
+[2015.09.29-01.02.07:245][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_84214. Try refresh all nodes.
+[2015.09.29-01.02.07:245][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_84213. Try refresh all nodes.
+[2015.09.29-01.02.07:245][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_84212. Try refresh all nodes.
+[2015.09.29-01.02.07:245][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_84211. Try refresh all nodes.
+[2015.09.29-01.02.07:245][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_84210. Try refresh all nodes.
+[2015.09.29-01.02.07:245][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.IsConstructionWorker_DEC:PerformConditionCheckAI.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_84209. Try refresh all nodes.
+[2015.09.29-01.02.07:246][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_CallFunction_7468 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_CallFunction_7468.EdGraphPin_94368. Try refresh all nodes.
+[2015.09.29-01.02.07:246][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_CallFunction_7468 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_CallFunction_7468.EdGraphPin_94367. Try refresh all nodes.
+[2015.09.29-01.02.07:248][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94264. Try refresh all nodes.
+[2015.09.29-01.02.07:248][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94263. Try refresh all nodes.
+[2015.09.29-01.02.07:248][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94262. Try refresh all nodes.
+[2015.09.29-01.02.07:248][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94261. Try refresh all nodes.
+[2015.09.29-01.02.07:248][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94260. Try refresh all nodes.
+[2015.09.29-01.02.07:248][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_94259. Try refresh all nodes.
+[2015.09.29-01.02.07:249][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_CallFunction_7722 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_CallFunction_7722.EdGraphPin_95383. Try refresh all nodes.
+[2015.09.29-01.02.07:249][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_CallFunction_7722 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_CallFunction_7722.EdGraphPin_95382. Try refresh all nodes.
+[2015.09.29-01.02.07:251][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95241. Try refresh all nodes.
+[2015.09.29-01.02.07:251][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95240. Try refresh all nodes.
+[2015.09.29-01.02.07:251][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95239. Try refresh all nodes.
+[2015.09.29-01.02.07:251][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95238. Try refresh all nodes.
+[2015.09.29-01.02.07:251][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95237. Try refresh all nodes.
+[2015.09.29-01.02.07:251][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95236. Try refresh all nodes.
+[2015.09.29-01.02.07:252][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_CallFunction_7820 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_CallFunction_7820.EdGraphPin_95901. Try refresh all nodes.
+[2015.09.29-01.02.07:252][377]LogBlueprint:Error: Broken Node: K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_CallFunction_7820 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_CallFunction_7820.EdGraphPin_95900. Try refresh all nodes.
+[2015.09.29-01.02.07:254][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95755. Try refresh all nodes.
+[2015.09.29-01.02.07:254][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95754. Try refresh all nodes.
+[2015.09.29-01.02.07:254][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95753. Try refresh all nodes.
+[2015.09.29-01.02.07:254][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95752. Try refresh all nodes.
+[2015.09.29-01.02.07:254][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95751. Try refresh all nodes.
+[2015.09.29-01.02.07:254][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.StartConstruction_TASK:EventGraph.K2Node_Composite_28.Reference Casts.K2Node_DynamicCast_852.EdGraphPin_95750. Try refresh all nodes.
+[2015.09.29-01.02.07:255][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078.EdGraphPin_91392. Try refresh all nodes.
+[2015.09.29-01.02.07:255][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078.EdGraphPin_91391. Try refresh all nodes.
+[2015.09.29-01.02.07:255][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078.EdGraphPin_91390. Try refresh all nodes.
+[2015.09.29-01.02.07:255][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078.EdGraphPin_91389. Try refresh all nodes.
+[2015.09.29-01.02.07:255][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2078.EdGraphPin_91388. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079.EdGraphPin_91407. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079.EdGraphPin_91406. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079.EdGraphPin_91405. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079.EdGraphPin_91404. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_VariableSet_2079.EdGraphPin_91403. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486.EdGraphPin_91423. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486.EdGraphPin_91422. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486.EdGraphPin_91421. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486.EdGraphPin_91420. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486.EdGraphPin_91419. Try refresh all nodes.
+[2015.09.29-01.02.07:256][377]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486 keeps removed/invalid pin: EdGraphPin /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.StopMoveToWork_TASK:EventGraph.K2Node_Composite_74.Casting.K2Node_DynamicCast_1486.EdGraphPin_91418. Try refresh all nodes.
+[2015.09.29-01.02.07:480][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-01.02.07:510][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004AA2E340
+[2015.09.29-01.02.07:511][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040D36980
+[2015.09.29-01.02.07:528][377]BlueprintEditorCompileResults: Info [1321.10] Compile of NewAICharacter_BP successful! [in 390 ms]
+[2015.09.29-01.02.08:349][416]LogSavePackage: Save=314.417816ms
+[2015.09.29-01.02.08:349][416]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BPB3A52F434BDE79F6616F3FBEB8ACE9F1.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-01.02.08:352][416]LogSavePackage: Total save time: 337.349582ms
+[2015.09.29-01.02.08:352][416]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-01.06.27:707][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-01.06.27:708][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.09.29-01.06.27:752][496]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.045
+[2015.09.29-01.06.27:768][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT] ([1] browsable assets)...
+[2015.09.29-01.06.27:768][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT]
+[2015.09.29-01.06.27:808][496]LogSavePackage: Save=18.035847ms
+[2015.09.29-01.06.27:808][496]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BT_Auto1626C4B6B479E4928AF97E3942FA9AD76.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT_Auto1.uasset'
+[2015.09.29-01.06.27:809][496]LogSavePackage: Total save time: 39.851699ms
+[2015.09.29-01.06.27:809][496]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT_Auto1.uasset
+[2015.09.29-01.06.27:809][496]LogFileHelpers: Auto-saving content packages took 0.056
+[2015.09.29-01.07.36:729][665]BlueprintLog: New page: Compile ConstructionOffice_BP
+[2015.09.29-01.07.37:072][665]BlueprintEditorCompileResults: Info [1650.61] Compile of ConstructionOffice_BP successful! [in 343 ms]
+[2015.09.29-01.07.37:477][695]LogSavePackage: Save=54.567551ms
+[2015.09.29-01.07.37:477][695]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionOffice_BPB882044848CD9C2E5D5C059F2B854F15.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset'
+[2015.09.29-01.07.37:480][695]LogSavePackage: Total save time: 76.661099ms
+[2015.09.29-01.07.37:480][695]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset
+[2015.09.29-01.07.52:654][340]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-01.07.53:368][400]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-01.07.54:591][520]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-01.08.04:966][548]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-01.08.32:739][292]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-01.11.00:977][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.NewAICharacter_BP:CheckForWork.K2Node_VariableSet_997 or K2Node_VariableSet /Game/TopDownBP/Sky/DayNightCycle_BP.DayNightCycle_BP:Calendar.K2Node_VariableSet_997
+[2015.09.29-01.11.00:978][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_997.EdGraphPin_34437''
+[2015.09.29-01.11.00:978][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1186.EdGraphPin_73625''
+[2015.09.29-01.11.00:978][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_664.EdGraphPin_34426''
+[2015.09.29-01.11.00:978][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7377.EdGraphPin_36298''
+[2015.09.29-01.11.00:979][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7377.EdGraphPin_36297''
+[2015.09.29-01.11.31:361][484]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.11.31:946][526]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.11.33:023][631]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.11.49:509][331]LogSavePackage: Save=282.940491ms
+[2015.09.29-01.11.49:509][331]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BP2A0240EC409258FFF5EAEB9DD1651B6A.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-01.11.49:512][331]LogSavePackage: Total save time: 308.261380ms
+[2015.09.29-01.11.49:512][331]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-01.11.49:611][331]LogSavePackage: Save=51.785442ms
+[2015.09.29-01.11.49:611][331]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionOffice_BPD34527264318B1663880EF9D9EEE8E62.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset'
+[2015.09.29-01.11.49:613][331]LogSavePackage: Total save time: 72.761562ms
+[2015.09.29-01.11.49:613][331]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset
+[2015.09.29-01.11.49:660][331]LogSavePackage: Save=17.096203ms
+[2015.09.29-01.11.49:660][331]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BTA6FD08EA49279597AFED4A9BEF3ADB6C.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.09.29-01.11.49:662][331]LogSavePackage: Total save time: 39.000496ms
+[2015.09.29-01.11.49:662][331]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.09.29-01.11.55:601][930]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.12.10:055][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:060][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:063][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:065][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:067][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:070][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:072][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:074][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:076][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:079][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:081][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:083][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:085][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:087][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:089][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:090][777]LogSavePackage: Save=45.370029ms
+[2015.09.29-01.12.10:091][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:091][777]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/FeaturePacksAD605255451C7396E30DA3A46DDA12CA.tmp' to '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset'
+[2015.09.29-01.12.10:094][777]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:096][777]LogSavePackage: Total save time: 70.605483ms
+[2015.09.29-01.12.10:096][777]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset
+[2015.09.29-01.12.10:160][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:162][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:165][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:167][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:169][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:171][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:173][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:175][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:177][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:179][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:181][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:184][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:186][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:188][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:190][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:191][778]LogSavePackage: Save=41.705025ms
+[2015.09.29-01.12.10:192][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:192][778]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/InstallingiTunesTutorial0F7A082541C9AD98B74B84A6F2CB4C03.tmp' to '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset'
+[2015.09.29-01.12.10:195][778]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:196][778]LogSavePackage: Total save time: 66.165343ms
+[2015.09.29-01.12.10:196][778]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset
+[2015.09.29-01.12.10:249][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:252][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:254][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:256][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:258][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:260][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:263][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:265][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:267][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:269][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:271][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:273][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:275][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:278][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:280][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:281][779]LogSavePackage: Save=41.430046ms
+[2015.09.29-01.12.10:282][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:282][779]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/SettingUpAndroidTutorialE0D2241D4696261B62FFE186F61171B7.tmp' to '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset'
+[2015.09.29-01.12.10:285][779]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.10:286][779]LogSavePackage: Total save time: 66.204883ms
+[2015.09.29-01.12.10:286][779]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset
+[2015.09.29-01.12.10:319][780]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2015.09.29-01.12.28:542][657]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.13.02:106][ 62]BlueprintLog: New page: Compile NewAICharacter_BP
+[2015.09.29-01.13.02:290][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-01.13.02:332][ 62]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.13.02:337][ 62]BlueprintEditorCompileResults: Info [1975.84] Compile of NewAICharacter_BP successful! [in 230 ms]
+[2015.09.29-01.13.02:361][ 62]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.13.03:196][111]LogSavePackage: Save=281.229340ms
+[2015.09.29-01.13.03:197][111]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BP0DD5A6F546EC8F7CE1651380B19482E0.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-01.13.03:199][111]LogSavePackage: Total save time: 302.709542ms
+[2015.09.29-01.13.03:199][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-01.19.24:130][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-01.19.28:342][581]LogEditorTransaction: Undo Add New Function
+[2015.09.29-01.20.47:762][571]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.20.48:574][638]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.20.49:364][715]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.21.18:511][406]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.21.27:906][314]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.21.29:846][498]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.21.32:799][726]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.21.59:092][390]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.22.00:926][542]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.22.01:793][624]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.23.42:730][294]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.23.52:312][291]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.23.53:916][414]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-01.24.37:995][247]LogSavePackage: Save=301.997498ms
+[2015.09.29-01.24.37:995][247]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BPB6BC404C43BD8D5F082F6784A73A387F.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-01.24.37:998][247]LogSavePackage: Total save time: 326.171961ms
+[2015.09.29-01.24.37:998][247]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-02.04.58:396][800]BlueprintLog: New page: Compile NewAICharacter_BP
+[2015.09.29-02.04.58:970][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-02.04.59:052][800]BlueprintEditorCompileResults: Info [5092.46] Compile of NewAICharacter_BP successful! [in 655 ms]
+[2015.09.29-02.05.00:331][901]LogSavePackage: Save=296.207794ms
+[2015.09.29-02.05.00:331][901]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BP8E4F3B7145B3690708C1248763FC6285.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-02.05.00:334][901]LogSavePackage: Total save time: 321.980841ms
+[2015.09.29-02.05.00:334][901]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-02.05.30:864][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-02.05.30:898][337]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.05.42:671][524]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.05.50:432][223]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.06.30:026][545]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.34:465][966]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.42:569][795]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.42:579][795]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.42:588][795]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.42:608][795]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.46:475][172]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.46:484][172]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.46:493][172]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.46:512][172]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.49:625][475]BlueprintLog: New page: Compile ConstructionOffice_BP
+[2015.09.29-02.06.49:965][475]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.06.50:000][475]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.06.50:048][475]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.06.50:050][475]BlueprintEditorCompileResults: Info [5203.45] Compile of ConstructionOffice_BP successful! [in 425 ms]
+[2015.09.29-02.06.50:064][475]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.07.16:503][325]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.07.47:562][800]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.07.47:914][828]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.07.48:695][901]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.08.26:589][714]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.08.27:446][785]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.08.27:972][831]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.09.55:867][754]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.09.57:690][958]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ConstructionOffice_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.SKEL_ConstructionOffice_BP_C'
+[2015.09.29-02.10.49:289][127]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.14.11:657][436]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.17:917][981]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.25:034][669]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.26:418][792]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.34:612][610]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.34:634][610]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.36:381][763]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.40:057][ 67]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.40:081][ 67]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.14.42:875][292]LogSavePackage: Save=308.420746ms
+[2015.09.29-02.14.42:875][292]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BP4F715366467295F654DBA1873A2DB6DA.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-02.14.42:878][292]LogSavePackage: Total save time: 335.996110ms
+[2015.09.29-02.14.42:878][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-02.14.42:944][292]LogSavePackage: Save=36.108517ms
+[2015.09.29-02.14.42:944][292]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController930EB07B455BDB9553D6FDA281521D6D.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-02.14.42:947][292]LogSavePackage: Total save time: 58.858883ms
+[2015.09.29-02.14.42:947][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-02.14.43:058][292]LogSavePackage: Save=62.774715ms
+[2015.09.29-02.14.43:059][292]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionOffice_BP58ED70E94386924AF0FBADB40D99350F.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset'
+[2015.09.29-02.14.43:061][292]LogSavePackage: Total save time: 85.337032ms
+[2015.09.29-02.14.43:061][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset
+[2015.09.29-02.14.43:910][366]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.15.17:974][624]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.15.42:769][137]BlueprintLog: New page: Compile TestAIController
+[2015.09.29-02.15.43:019][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-02.15.43:022][137]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.15.43:030][137]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.15.43:099][137]BlueprintEditorCompileResults: Info [5736.45] Compile of TestAIController successful! [in 330 ms]
+[2015.09.29-02.15.49:955][842]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.16.07:887][693]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.16.57:486][237]LogSavePackage: Save=39.050602ms
+[2015.09.29-02.16.57:486][237]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController0559E0DD47B33D5A01CB2DB55DA5778C.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-02.16.57:489][237]LogSavePackage: Total save time: 62.973935ms
+[2015.09.29-02.16.57:489][237]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-02.19.17:081][583]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.19.17:842][642]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.19.18:795][736]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.21.25:570][577]LogRenderer: Reallocating scene render targets to support 1328x940 (Frame:3135).
+[2015.09.29-02.21.38:494][514]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.22.36:476][610]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.NewAICharacter_BP_C'
+[2015.09.29-02.23.11:837][ 10]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.23.34:237][189]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.23.36:156][383]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.23.43:787][ 49]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.23.45:554][198]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.24.01:626][599]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.26.08:721][629]BlueprintLog: New page: Compile TestAIController
+[2015.09.29-02.26.09:065][629]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.09.29-02.26.09:065][629]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.09.29-02.26.09:065][629]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.09.29-02.26.09:065][629]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.09.29-02.26.09:065][629]BlueprintEditorCompileResults: Info [6362.35] Compile of TestAIController successful! [in 343 ms]
+[2015.09.29-02.26.09:707][671]LogSavePackage: Save=53.635452ms
+[2015.09.29-02.26.09:708][671]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController5DE4A47C44C510C72426C78D5A360499.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-02.26.09:710][671]LogSavePackage: Total save time: 78.539178ms
+[2015.09.29-02.26.09:710][671]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-02.26.36:384][374]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CheckForWork_DEC', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.SKEL_CheckForWork_DEC_C'
+[2015.09.29-02.26.37:492][473]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CheckForWork_DEC', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.SKEL_CheckForWork_DEC_C'
+[2015.09.29-02.26.38:345][554]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CheckForWork_DEC', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.SKEL_CheckForWork_DEC_C'
+[2015.09.29-02.27.12:031][761]BlueprintLog: New page: Compile TestAIController
+[2015.09.29-02.27.12:462][761]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.09.29-02.27.12:462][761]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.09.29-02.27.12:462][761]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.09.29-02.27.12:462][761]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.09.29-02.27.12:462][761]BlueprintEditorCompileResults: Info [6425.75] Compile of TestAIController successful! [in 431 ms]
+[2015.09.29-02.27.20:562][588]LogSavePackage: Save=53.987705ms
+[2015.09.29-02.27.20:562][588]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController2E1CEA07450990D8E9C056B238244FBB.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-02.27.20:564][588]LogSavePackage: Total save time: 75.910106ms
+[2015.09.29-02.27.20:565][588]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-02.27.34:274][901]BlueprintLog: New page: Compile CheckForWork_DEC
+[2015.09.29-02.27.34:377][901]BlueprintEditorCompileResults: Info [6447.66] Compile of CheckForWork_DEC successful! [in 102 ms]
+[2015.09.29-02.27.35:585][  5]LogSavePackage: Save=31.465235ms
+[2015.09.29-02.27.35:585][  5]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/CheckForWork_DEC7406A42846EB746EB49683A01899CBA8.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.uasset'
+[2015.09.29-02.27.35:588][  5]LogSavePackage: Total save time: 54.445907ms
+[2015.09.29-02.27.35:588][  5]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.uasset
+[2015.09.29-02.28.46:964][971]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.09.29-02.28.49:094][135]LogSavePackage: Save=56.590515ms
+[2015.09.29-02.28.49:094][135]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController529C01744A23F52883EDF2957FFD0514.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-02.28.49:097][135]LogSavePackage: Total save time: 80.906853ms
+[2015.09.29-02.28.49:097][135]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-02.29.14:547][535]BlueprintLog: New page: Compile TestAIController
+[2015.09.29-02.29.14:712][535]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.09.29-02.29.14:712][535]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.09.29-02.29.14:712][535]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.09.29-02.29.14:712][535]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.09.29-02.29.14:712][535]BlueprintEditorCompileResults: Info [6548.00] Compile of TestAIController successful! [in 164 ms]
+[2015.09.29-02.29.15:448][586]LogSavePackage: Save=53.058929ms
+[2015.09.29-02.29.15:449][586]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController5CB1785746CFBB5087EBAD86CA379EE9.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.09.29-02.29.15:451][586]LogSavePackage: Total save time: 75.222205ms
+[2015.09.29-02.29.15:451][586]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.09.29-02.35.16:869][476]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.MoveToJobSite_TASK:EventGraph.K2Node_CallFunction_12030 or K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.MoveToConstructionOffice_TASK:EventGraph.K2Node_CallFunction_12030
+[2015.09.29-02.35.16:869][476]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12030.EdGraphPin_52022''
+[2015.09.29-02.36.22:840][873]BlueprintLog: New page: Compile MoveToConstructionOffice_TASK
+[2015.09.29-02.36.22:963][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034ECDBC0
+[2015.09.29-02.36.22:964][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D5F5760
+[2015.09.29-02.36.22:964][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055EE5440
+[2015.09.29-02.36.22:965][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C6B2480
+[2015.09.29-02.36.22:968][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004ACB9940
+[2015.09.29-02.36.22:978][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C616480
+[2015.09.29-02.36.22:978][873]BlueprintEditorCompileResults: Info [6976.27] Compile of MoveToConstructionOffice_TASK successful! [in 138 ms]
+[2015.09.29-02.36.23:550][920]LogSavePackage: Save=56.710651ms
+[2015.09.29-02.36.23:551][920]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/MoveToConstructionOffice_TASK6CD754914C43A313250B07821F6D39C7.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.uasset'
+[2015.09.29-02.36.23:553][920]LogSavePackage: Total save time: 79.790626ms
+[2015.09.29-02.36.23:553][920]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.uasset
+[2015.09.29-02.36.30:234][580]LogSavePackage: Save=52.902271ms
+[2015.09.29-02.36.30:234][580]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/MoveToConstructionOffice_TASK351CA5F248B451C9D43A6BBFC92FD8ED.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.uasset'
+[2015.09.29-02.36.30:236][580]LogSavePackage: Total save time: 74.384581ms
+[2015.09.29-02.36.30:236][580]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.uasset
+[2015.09.29-02.37.04:902][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046A38540
+[2015.09.29-02.37.04:912][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046D6D800
+[2015.09.29-02.37.05:220][ 26]LogSavePackage: Save=247.881805ms
+[2015.09.29-02.37.05:220][ 26]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/NewAICharacter_BP1236853747BE5358DBF512B49568251A.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset'
+[2015.09.29-02.37.05:222][ 26]LogSavePackage: Total save time: 274.467412ms
+[2015.09.29-02.37.05:223][ 26]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/NewAICharacter_BP.uasset
+[2015.09.29-02.37.05:325][ 26]LogSavePackage: Save=17.617489ms
+[2015.09.29-02.37.05:325][ 26]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BTC3149DAA4265850FF955599203CD7AA5.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.09.29-02.37.05:327][ 26]LogSavePackage: Total save time: 94.079670ms
+[2015.09.29-02.37.05:327][ 26]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.09.29-02.37.15:279][165]BlueprintLog: New page: Compile ConstructionOffice_BP
+[2015.09.29-02.37.15:470][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.29-02.37.15:518][165]BlueprintEditorCompileResults: Info [7028.81] Compile of ConstructionOffice_BP successful! [in 238 ms]
+[2015.09.29-02.37.16:509][254]LogSavePackage: Save=62.348511ms
+[2015.09.29-02.37.16:509][254]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionOffice_BPEC1AFD424ECE76F55A066EAC8A095923.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset'
+[2015.09.29-02.37.16:511][254]LogSavePackage: Total save time: 84.864039ms
+[2015.09.29-02.37.16:511][254]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.uasset
+[2015.09.29-02.37.44:341][963]LogSavePackage: Save=17.317455ms
+[2015.09.29-02.37.44:341][963]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BTDDE2618E4118C1052851C7AF0A4BD3FE.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.09.29-02.37.44:344][963]LogSavePackage: Total save time: 39.802499ms
+[2015.09.29-02.37.44:344][963]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.09.29-02.37.51:658][620]LogSavePackage: Save=17.295721ms
+[2015.09.29-02.37.51:658][620]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BT0C7E413F40B95B781F3AC0BC3D0AD489.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.09.29-02.37.51:661][620]LogSavePackage: Total save time: 39.277889ms
+[2015.09.29-02.37.51:661][620]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.09.29-02.40.36:198][726]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.40.37:168][808]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.40.37:915][878]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.41.24:778][517]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.41.26:858][695]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.41.27:606][763]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.41.45:716][470]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.41.46:892][577]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.41.50:847][935]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AssignWork_TASK', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.SKEL_AssignWork_TASK_C'
+[2015.09.29-02.43.08:948][389]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.09.29-02.43.32:382][873]BlueprintLog: New page: Compile NewAICharacter_BP
+[2015.09.29-02.43.32:454][873]LogBlueprint:Error: [compiler NewAICharacter_BP] Error Could not find a function named "CheckForWork" in 'NewAICharacter_BP_C'.
+Make sure 'NewAICharacter_BP_C' has been compiled for  Check for Work 
+[2015.09.29-02.43.32:524][873]LogBlueprint:Error: [compiler AssignWork_TASK] Error Could not find a function named "AssignCurrentTask" in 'NewAICharacter_BP_C'.
+Make sure 'NewAICharacter_BP_C' has been compiled for  Assign Current Task 
+[2015.09.29-02.43.33:261][873]LogUObjectBase:Error: 'this' pointer is misaligned.
+[2015.09.29-02.43.33:316][873]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.09.29-02.43.36:951][873]LogCrashTracker: 
+
+
+[2015.09.29-02.43.36:951][873]LogThreadingWindows:Error: Runnable thread TaskGraphThread 1 crashed.
+[2015.09.29-02.43.36:951][873]LogCrashTracker: 
+
+
+[2015.09.29-02.43.36:951][873]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\CoreUObject\Private\UObject\GarbageCollection.cpp] [Line: 383] 
+Invalid object in GC: 0xcdcdcdcdcdcdcdcd, ReferencingObject: Proxy_HUD_C /Game/TopDownBP/HUDs/Proxy_HUD.Default__Proxy_HUD_C, ReferencingObjectClass: WidgetBlueprintGeneratedClass /Game/TopDownBP/HUDs/Proxy_HUD.Proxy_HUD_C, Property Name: CharacterInstance_12_B3FD0F2848EFBA182195FFB193906969, Offset: 1432, TokenIndex: 19
+
+
+
+Crash in runnable thread TaskGraphThread 1
+
+[2015.09.29-02.43.42:087][873]LogExit: Executing StaticShutdownAfterError
+[2015.09.29-02.43.42:087][873]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.09.29-02.43.42:087][873]Log file closed, 09/28/15 19:43:42

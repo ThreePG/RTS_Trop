@@ -1,0 +1,387 @@
+﻿[2015.10.01-00.38.22:564][  0]Log file open, 09/30/15 17:38:22
+[2015.10.01-00.38.22:564][  0]LogInit:Display: Running engine for game: MyRTS_TropicoStyle
+[2015.10.01-00.38.22:564][  0]LogInit:Display: RandInit(146048418) SRandInit(146048418).
+[2015.10.01-00.38.22:564][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.01-00.38.22:564][  0]LogStats: Stats thread started at 0.341747
+[2015.10.01-00.38.22:564][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.01-00.38.22:564][  0]LogInit: API Version: 2672455
+[2015.10.01-00.38.22:564][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.01-00.38.22:564][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.01-00.38.22:564][  0]LogInit: Build Configuration: Development
+[2015.10.01-00.38.22:564][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.01-00.38.22:564][  0]LogInit: Command line:  
+[2015.10.01-00.38.22:564][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.01-00.38.22:564][  0]LogInit: Rocket: 1
+[2015.10.01-00.38.22:588][  0]LogInit: Using libcurl 7.41.0
+[2015.10.01-00.38.22:588][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.01-00.38.22:588][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.01-00.38.22:588][  0]LogInit:  - other features:
+[2015.10.01-00.38.22:588][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.01-00.38.22:588][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.01-00.38.22:588][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.01-00.38.22:588][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.01-00.38.22:588][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.01-00.38.22:588][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.01-00.38.22:588][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.01-00.38.22:588][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.01-00.38.22:588][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.01-00.38.22:588][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.01-00.38.22:627][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.01-00.38.22:665][  0]LogInit: Object subsystem initialized
+[2015.10.01-00.38.22:700][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.01-00.38.22:700][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.01-00.38.22:707][  0]LogInit: Computer: JTSMITHFS111
+[2015.10.01-00.38.22:707][  0]LogInit: User: jtsmith
+[2015.10.01-00.38.22:707][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.01-00.38.22:707][  0]LogInit: High frequency timer resolution =3.312910 MHz
+[2015.10.01-00.38.22:707][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.10.01-00.38.22:707][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.01-00.38.22:707][  0]LogMemory: Process Physical Memory: 56.41 MB used, 56.41 MB peak
+[2015.10.01-00.38.22:707][  0]LogMemory: Process Virtual Memory: 58.09 MB used, 58.09 MB peak
+[2015.10.01-00.38.22:707][  0]LogMemory: Physical Memory: 5064.07 MB used, 8146.45 MB total
+[2015.10.01-00.38.22:707][  0]LogMemory: Virtual Memory: 340.10 MB used, 8388608.00 MB total
+[2015.10.01-00.38.22:828][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.01-00.38.24:572][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570 (Feature Level 11_0)
+[2015.10.01-00.38.24:572][  0]LogD3D11RHI: Adapter has 1008MB of dedicated video memory, 0MB of dedicated system memory, and 3817MB of shared system memory, 1 output[s]
+[2015.10.01-00.38.24:572][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.01-00.38.24:602][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.01-00.38.24:603][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2015.10.01-00.38.24:630][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.01-00.38.25:302][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Intermediate/Shaders/WorkingDirectory/8392/).
+[2015.10.01-00.38.25:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Intermediate/Shaders/tmp/3443961C4B808BAB3F11779B3566343A/'.
+[2015.10.01-00.38.25:317][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.01-00.38.34:435][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.01-00.38.34:446][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.01-00.38.34:457][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.01-00.38.34:488][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.01-00.38.34:581][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.01-00.38.34:690][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.01-00.38.34:762][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.01-00.38.34:846][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.01-00.38.34:896][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.01-00.38.34:922][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.01-00.38.34:958][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.01-00.38.34:981][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.01-00.38.35:000][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.01-00.38.35:106][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.01-00.38.35:121][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.01-00.38.35:158][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.01-00.38.35:185][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.01-00.38.35:185][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.01-00.38.36:153][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.01-00.38.36:599][  0]LogDerivedDataCache: Loaded boot cache 0.45s 41MB C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.01-00.38.36:599][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.01-00.38.36:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.01-00.38.36:599][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.01-00.38.36:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.01-00.38.36:599][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.01-00.38.36:801][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.01-00.38.36:838][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jtsmith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.01-00.38.50:212][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.01-00.38.50:247][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.01-00.38.51:110][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.01-00.38.51:110][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.01-00.38.56:078][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.01-00.39.19:051][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.01-00.39.20:097][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.10.01-00.39.32:164][  0]SourceControl: Info Source control is disabled
+[2015.10.01-00.39.32:597][  0]SourceControl: Info Source control is disabled
+[2015.10.01-00.39.37:159][  0]SourceControl: Info Source control is disabled
+[2015.10.01-00.39.37:275][  0]SourceControl: Info Source control is disabled
+[2015.10.01-00.39.38:887][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.01-00.39.39:371][  0]LogObj: 28380 objects as part of root set at end of initial load.
+[2015.10.01-00.39.39:371][  0]LogUObjectAllocator: 6044384 out of 0 bytes used by permanent object pool.
+[2015.10.01-00.39.40:407][  0]LogEngine: Initializing Engine...
+[2015.10.01-00.39.40:441][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.01-00.39.40:468][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.01-00.39.41:900][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.01-00.39.42:141][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.01-00.39.42:434][  0]LogInit: FAudioDevice initialized.
+[2015.10.01-00.39.42:457][  0]LogDerivedDataCache: Saved boot cache 0.02s 44MB C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.01-00.39.42:461][  0]LogInit: Texture streaming: Enabled
+[2015.10.01-00.39.42:556][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.01-00.39.42:556][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.01-00.39.42:556][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6fa6e3274a8d5d72a75cbcbef6d297a7|3b8075bc1ed94341b886f5e4c6e1b23d|13e13887-07aa-43da-a8ee-6e00c985f4a0
+[2015.10.01-00.39.42:556][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.01-00.39.43:161][  0]LogInit: Transaction tracking system initialized
+[2015.10.01-00.39.48:094][  0]BlueprintLog: New page: Editor Load
+[2015.10.01-00.39.50:444][  0]LocalizationService: Info Localization service is disabled
+[2015.10.01-00.39.52:061][  0]LogConsoleResponse:Display: 
+[2015.10.01-00.39.53:841][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.01-00.39.54:905][  0]SourceControl: Info Source control is disabled
+[2015.10.01-00.39.54:969][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.01-00.39.54:991][  0]LightingResults: New page: Lighting Build
+[2015.10.01-00.39.55:115][  0]MapCheck: New page: Map Check
+[2015.10.01-00.39.55:115][  0]LightingResults: New page: Lighting Build
+[2015.10.01-00.39.55:583][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022E3B6A0
+[2015.10.01-00.40.00:127][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buildings/Commercial/Restaurant_BP.Restaurant_BP_C:UserConstructionScript; removing parent information, but keeping function
+[2015.10.01-00.40.00:977][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.Shack_BP_C:UserConstructionScript; removing parent information, but keeping function
+[2015.10.01-00.40.10:773][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.10.01-00.40.14:005][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.01-00.40.14:051][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.01-00.40.14:141][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.213ms to complete.
+[2015.10.01-00.40.14:164][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 19.234
+[2015.10.01-00.40.15:505][  0]LogCollectionManager: Loaded 0 collections in 0.002235 seconds
+[2015.10.01-00.40.15:649][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Collections/' took 0.01s
+[2015.10.01-00.40.15:649][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/Developers/jtsmith/Collections/' took 0.01s
+[2015.10.01-00.40.15:649][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/Collections/' took 0.01s
+[2015.10.01-00.40.15:649][  0]LogContentBrowser: Native class hierarchy populated in 0.0282 seconds. Added 1874 classes and 335 folders.
+[2015.10.01-00.40.15:740][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.01-00.40.15:847][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.01-00.40.16:088][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.01-00.40.16:274][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.01-00.40.16:770][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.01-00.40.16:875][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.01-00.40.16:929][  0]LogLoad: Full Startup: 115.50 seconds (BP compile: 2.56 seconds)
+[2015.10.01-00.40.17:658][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.01-00.40.18:481][  1]LogRenderer: Reallocating scene render targets to support 832x556 (Frame:2).
+[2015.10.01-00.40.18:525][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.01-00.40.20:988][  2]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.10.01-00.40.24:624][  2]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/Residential/StopMoveToHouse_TASK.
+[2015.10.01-00.40.24:634][  2]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/EditorBlueprintResources/ActorMacros.
+[2015.10.01-00.40.24:634][  2]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/EditorBlueprintResources/StandardMacros.
+[2015.10.01-00.40.25:477][  4]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/EngineAnimNotifies/AnimNotify_PlayParticleEffect.
+[2015.10.01-00.40.25:477][  4]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/EngineAnimNotifies/AnimNotify_PlaySound.
+[2015.10.01-00.40.25:477][  4]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/EngineDamageTypes/DmgTypeBP_Environmental.
+[2015.10.01-00.40.26:194][  6]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/EngineSky/BP_Sky_Sphere.
+[2015.10.01-00.40.26:198][  6]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/FunctionalTesting/Blueprints/AITesting_MoveGoal.
+[2015.10.01-00.40.26:530][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Basics/ContentBrowserOverview.
+[2015.10.01-00.40.26:530][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Basics/FeaturePacks.
+[2015.10.01-00.40.26:530][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Basics/LevelEditorAttract.
+[2015.10.01-00.40.26:530][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Basics/LevelEditorOverview.
+[2015.10.01-00.40.26:531][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Basics/ViewportsTutorial.
+[2015.10.01-00.40.26:531][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.
+[2015.10.01-00.40.26:532][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.
+[2015.10.01-00.40.26:532][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.
+[2015.10.01-00.40.26:532][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/ClassBlueprintsEditorOverview.
+[2015.10.01-00.40.26:533][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.
+[2015.10.01-00.40.26:533][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.
+[2015.10.01-00.40.26:533][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.
+[2015.10.01-00.40.26:534][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.
+[2015.10.01-00.40.26:534][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Code/AddingCode.
+[2015.10.01-00.40.26:534][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Foliage/FoliageWalkThrough.
+[2015.10.01-00.40.26:534][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Foliage/Foliage_Intro_Tutorial.
+[2015.10.01-00.40.26:534][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Foliage/Foliage_Settings_Tutorial.
+[2015.10.01-00.40.26:534][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Installation/InstallingVisualStudioTutorial.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Installation/InstallingXCodeTutorial.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial_Part2.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial_Part3.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.
+[2015.10.01-00.40.26:535][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Bridge1.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Bridge2.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Landscape/LandscapeWalkThrough.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Landscape/Landscape_Manage_Mode.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Landscape/Landscape_Painting_Mode.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Landscape/Landscape_Sculpt_Mode.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.
+[2015.10.01-00.40.26:536][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Mobile/InstallingiTunesTutorial.
+[2015.10.01-00.40.26:537][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Mobile/SettingUpAndroidTutorial.
+[2015.10.01-00.40.26:537][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Paper2D/FlipbookEditorTutorial.
+[2015.10.01-00.40.26:537][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/Paper2D/SpriteEditorTutorial.
+[2015.10.01-00.40.26:537][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial.
+[2015.10.01-00.40.26:537][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/MaterialEditorTutorial.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/ParticleSystemEditorTutorial.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/PersonaAnimEditorWalkthrough.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/PersonaWalkthrough.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/SkeletalMeshEditorWalkthrough.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/SkeletonModeWalkthrough.
+[2015.10.01-00.40.26:538][  7]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/StaticMeshEditorTutorial.
+[2015.10.01-00.40.26:858][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.
+[2015.10.01-00.40.26:859][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.
+[2015.10.01-00.40.26:859][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_CeilingLight.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_Effect_Explosion.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_Effect_Fire.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_Effect_Smoke.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_Effect_Sparks.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_Effect_Steam.
+[2015.10.01-00.40.26:860][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/Blueprint_WallSconce.
+[2015.10.01-00.40.26:861][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Blueprints/BP_LightStudio.
+[2015.10.01-00.40.26:861][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Maps/Minimal_Default.
+[2015.10.01-00.40.26:861][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/StarterContent/Maps/StarterMap.
+[2015.10.01-00.40.26:866][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/TopDownOverview.
+[2015.10.01-00.40.26:867][  8]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/BuildingMaster_BP.
+[2015.10.01-00.40.27:192][  9]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/CameraPawn.
+[2015.10.01-00.40.27:194][  9]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/CameraPawnController.
+[2015.10.01-00.40.27:524][ 10]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/GhostBuilding_BP.
+[2015.10.01-00.40.27:858][ 11]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/MyAIController.
+[2015.10.01-00.40.27:859][ 11]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/MyGameMode.
+[2015.10.01-00.40.27:859][ 11]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/MyGameState.
+[2015.10.01-00.40.27:862][ 11]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/MyPlayerState.
+[2015.10.01-00.40.27:863][ 11]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/TopDownCharacter.
+[2015.10.01-00.40.28:191][ 12]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionCheck_SERVICE.
+[2015.10.01-00.40.28:191][ 12]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/EndConstruction_TASK.
+[2015.10.01-00.40.28:191][ 12]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.
+[2015.10.01-00.40.28:524][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/RandomWait_TASK.
+[2015.10.01-00.40.28:525][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/Service_DEC.
+[2015.10.01-00.40.28:525][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/TempDestroyAssignment_TASK.
+[2015.10.01-00.40.28:525][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/TestAIController.
+[2015.10.01-00.40.28:533][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/TestDoConstruction_TASK.
+[2015.10.01-00.40.28:533][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/TestStartConstruction_TASK.
+[2015.10.01-00.40.28:534][ 13]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/AssignWork_TASK.
+[2015.10.01-00.40.28:858][ 14]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckForWork_DEC.
+[2015.10.01-00.40.28:861][ 14]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckIsWorking_DEC.
+[2015.10.01-00.40.28:865][ 14]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckJobValid_DEC.
+[2015.10.01-00.40.28:868][ 14]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsAtOffice_DEC.
+[2015.10.01-00.40.29:191][ 15]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/IsConstructionWorker_DEC.
+[2015.10.01-00.40.29:194][ 15]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToConstructionOffice_TASK.
+[2015.10.01-00.40.29:200][ 15]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/MoveToJobSite_TASK.
+[2015.10.01-00.40.29:524][ 16]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StartConstruction_TASK.
+[2015.10.01-00.40.29:528][ 16]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/StopMoveToWork_TASK.
+[2015.10.01-00.40.29:532][ 16]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid.
+[2015.10.01-00.40.29:536][ 16]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift.
+[2015.10.01-00.40.29:858][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Game.
+[2015.10.01-00.40.29:858][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.
+[2015.10.01-00.40.29:863][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.
+[2015.10.01-00.40.29:863][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.
+[2015.10.01-00.40.29:864][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/CommercialMaster_BP.
+[2015.10.01-00.40.29:866][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/IndustrialMaster_BP.
+[2015.10.01-00.40.29:866][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/OccupationalMaster_BP.
+[2015.10.01-00.40.29:867][ 17]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/ResidentialMaster_BP.
+[2015.10.01-00.40.30:192][ 18]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/Commercial/ConstructionOffice_BP.
+[2015.10.01-00.40.30:200][ 18]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/Commercial/Restaurant_BP.
+[2015.10.01-00.40.30:201][ 18]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/Industrial/BananaFarm_BP.
+[2015.10.01-00.40.30:201][ 18]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/Residential/Apartments_Sm_BP.
+[2015.10.01-00.40.30:203][ 18]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.
+[2015.10.01-00.40.30:204][ 18]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.
+[2015.10.01-00.40.30:526][ 19]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/Construction/ConstructionProxy_BP.
+[2015.10.01-00.40.30:859][ 20]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Character/TopDownAnimBlueprint.
+[2015.10.01-00.40.30:864][ 20]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/HUDs/Building_HUD.
+[2015.10.01-00.40.30:866][ 20]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/HUDs/Commander_HUD.
+[2015.10.01-00.40.31:192][ 21]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/HUDs/PauseMenu_PopUp.
+[2015.10.01-00.40.31:196][ 21]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/HUDs/Proxy_HUD.
+[2015.10.01-00.40.31:202][ 21]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Interfaces/I_Construction.
+[2015.10.01-00.40.31:202][ 21]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Interfaces/I_GameSettings.
+[2015.10.01-00.40.31:203][ 21]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Interfaces/I_HUD.
+[2015.10.01-00.40.31:205][ 21]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Interfaces/I_Interactions.
+[2015.10.01-00.40.31:525][ 22]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Libraries/Function_Library.
+[2015.10.01-00.40.31:529][ 22]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Libraries/Macro_Library.
+[2015.10.01-00.40.31:530][ 22]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Maps/TopDownExampleMap.
+[2015.10.01-00.40.31:538][ 22]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Meshes/TestShape.
+[2015.10.01-00.40.31:860][ 23]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/NewCharAnimations/NewTopDown_AnimBP.
+[2015.10.01-00.40.31:863][ 23]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Sky/CustomSkySphere_BP.
+[2015.10.01-00.40.32:191][ 24]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Sky/DayNightCycle_BP.
+[2015.10.01-00.40.32:533][ 25]LogAssetRegistry: Asset discovery search completed in 72.4410 seconds
+[2015.10.01-00.40.32:535][ 25]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.01-00.40.32:535][ 25]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2015.10.01-00.41.43:136][104]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.01-00.42.47:106][528]LogRenderer: Reallocating scene render targets to support 892x776 (Frame:71).
+[2015.10.01-00.43.42:381][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-00.47.23:554][947]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_11:PersistentLevel.Shack_BP_C_1.Scene' is not static  (in blueprint "Shack_BP"), cannot attach '/Engine/Transient.World_11:PersistentLevel.Shack_BP_C_1.SplineMesh' which is static to it. Aborting.
+[2015.10.01-00.47.23:574][947]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_11:PersistentLevel.Shack_BP_C_1.Scene' is not static  (in blueprint "Shack_BP"), cannot attach '/Engine/Transient.World_11:PersistentLevel.Shack_BP_C_1.SplineMesh' which is static to it. Aborting.
+[2015.10.01-00.50.23:568][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E0B45E0
+[2015.10.01-00.50.23:697][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.350
+[2015.10.01-00.50.23:768][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/Residential/MoveToLocation_TASK] ([1] browsable assets)...
+[2015.10.01-00.50.23:768][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/Residential/MoveToLocation_TASK]
+[2015.10.01-00.50.24:069][404]LogSavePackage: Save=78.912796ms
+[2015.10.01-00.50.24:069][404]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/MoveToLocation_TASK_Auto12FDEA6C742E4555B465C3A8E4E15D6C5.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/Residential/MoveToLocation_TASK_Auto1.uasset'
+[2015.10.01-00.50.24:093][404]LogSavePackage: Total save time: 323.604021ms
+[2015.10.01-00.50.24:093][404]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/Residential/MoveToLocation_TASK_Auto1.uasset
+[2015.10.01-00.50.24:121][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP] ([1] browsable assets)...
+[2015.10.01-00.50.24:176][404]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.Shack_BP]
+[2015.10.01-00.50.24:176][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP]
+[2015.10.01-00.50.24:261][404]LogSavePackage: Save=23.348053ms
+[2015.10.01-00.50.24:261][404]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Shack_BP_Auto1010466634A732BA21A9274B47A86F7F8.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP_Auto1.uasset'
+[2015.10.01-00.50.24:263][404]LogSavePackage: Total save time: 85.057545ms
+[2015.10.01-00.50.24:263][404]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP_Auto1.uasset
+[2015.10.01-00.50.24:263][404]LogFileHelpers: Auto-saving content packages took 0.565
+[2015.10.01-00.57.48:232][ 17]BlueprintLog: New page: Compile Shack_BP
+[2015.10.01-00.57.48:715][ 17]BlueprintEditorCompileResults: Info [1167.26] Compile of Shack_BP successful! [in 482 ms]
+[2015.10.01-00.58.03:372][451]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Shack_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.SKEL_Shack_BP_C'
+[2015.10.01-00.58.39:360][512]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Shack_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.SKEL_Shack_BP_C'
+[2015.10.01-00.58.48:382][437]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Shack_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.SKEL_Shack_BP_C'
+[2015.10.01-00.58.49:636][551]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Shack_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.SKEL_Shack_BP_C'
+[2015.10.01-01.02.50:805][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.042
+[2015.10.01-01.02.50:812][686]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP] ([1] browsable assets)...
+[2015.10.01-01.02.50:842][686]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.Shack_BP]
+[2015.10.01-01.02.50:842][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP]
+[2015.10.01-01.02.50:928][686]LogSavePackage: Save=22.869925ms
+[2015.10.01-01.02.50:928][686]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Shack_BP_Auto27557C9864EFA961BF08B2E8C1E0B80F3.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP_Auto2.uasset'
+[2015.10.01-01.02.50:930][686]LogSavePackage: Total save time: 86.174693ms
+[2015.10.01-01.02.50:930][686]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP_Auto2.uasset
+[2015.10.01-01.02.50:930][686]LogFileHelpers: Auto-saving content packages took 0.124
+[2015.10.01-05.20.56:132][536]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Shack_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.SKEL_Shack_BP_C'
+[2015.10.01-05.20.57:972][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.NavModifier_GEN_VARIABLE) Not registered. Aborting.
+[2015.10.01-05.20.58:942][760]BlueprintLog: New page: Compile Shack_BP
+[2015.10.01-05.20.59:166][760]BlueprintEditorCompileResults: Info [6957.12] Compile of Shack_BP successful! [in 224 ms]
+[2015.10.01-05.20.59:792][804]LogSavePackage: Save=36.237022ms
+[2015.10.01-05.20.59:792][804]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Shack_BPF7CAEB654550276B3893FABE84857BF6.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.uasset'
+[2015.10.01-05.20.59:794][804]LogSavePackage: Total save time: 115.323387ms
+[2015.10.01-05.20.59:794][804]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.uasset
+[2015.10.01-05.21.05:783][461]LogRenderer: Reallocating scene render targets to support 944x776 (Frame:5675).
+[2015.10.01-05.56.47:415][408]LogRenderer: Reallocating scene render targets to support 1100x776 (Frame:6185).
+[2015.10.01-06.31.26:911][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.27:413][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.27:927][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.28:429][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.28:942][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.29:444][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.40:161][108]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.40:665][108]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.41:178][109]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.41:682][109]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.42:195][110]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.31.42:699][110]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-06.49.05:755][407]LogSavePackage: Save=57.930340ms
+[2015.10.01-06.49.05:755][407]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/MoveToLocation_TASK5346028542244E55623CD084AC23E38C.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Residential/MoveToLocation_TASK.uasset'
+[2015.10.01-06.49.05:757][407]LogSavePackage: Total save time: 124.406941ms
+[2015.10.01-06.49.05:757][407]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Residential/MoveToLocation_TASK.uasset
+[2015.10.01-06.52.17:526][699]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid_DEC.SKEL_CheckWorkValid_DEC_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid.PackageMetaData'
+[2015.10.01-06.52.17:526][699]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid_DEC.CheckWorkValid_DEC_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid.PackageMetaData'
+[2015.10.01-06.53.04:306][699]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !SearchArray[*IndexPtr].Blueprint.IsValid() || SearchArray[*IndexPtr].Blueprint == BlueprintAsset [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\Kismet\Private\FindInBlueprintManager.cpp] [Line: 1051]
+Blueprint in database has path /Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid.CheckWorkValid and is being stomped by /Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid.CheckWorkValid
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:258]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:368]
+UE4Editor-Kismet.dll!FFindInBlueprintSearchManager::OnAssetLoaded() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\kismet\private\findinblueprintmanager.cpp:1051]
+UE4Editor-Kismet.dll!TBaseRawMethodDelegateInstance<0,FFindInBlueprintSearchManager,void __cdecl(UObject * __ptr64)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:582]
+UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void,UObject * __ptr64>::Broadcast() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:809]
+UE4Editor-CoreUObject.dll!EndLoad() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1301]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1041]
+UE4Editor-CoreUObject.dll!UPackage::FullyLoad() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\package.cpp:157]
+UE4Editor-CoreUObject.dll!UPackage::IsEmptyPackage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\savepackage.cpp:4684]
+UE4Editor-AssetRegistry.dll!FAssetRegistry::AssetRenamed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\assetregistry\private\assetregistry.cpp:1242]
+UE4Editor-UnrealEd.dll!ObjectTools::RenameSingleObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\objecttools.cpp:2715]
+UE4Editor-AssetTools.dll!FAssetRenameManager::PerformAssetRename() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\developer\assettools\private\assetrenamemanager.cpp:634]
+UE4Editor-AssetTools.dll!FAssetRenameManager::FixReferencesAndRename() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\developer\assettools\private\assetrenamemanager.cpp:222]
+UE4Editor-AssetTools.dll!FAssetRenameManager::RenameAssets() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\developer\assettools\private\assetrenamemanager.cpp:162]
+UE4Editor-ContentBrowser.dll!ContentBrowserUtils::RenameAsset() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:426]
+UE4Editor-ContentBrowser.dll!SAssetView::AssetRenameCommit() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\contentbrowser\private\sassetview.cpp:3393]
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetView,0,TTypeWrapper<void> __cdecl(TSharedPtr<FAssetViewItem,0> const & __ptr64,FString const & __ptr64,FSlateRect const & __ptr64,enum ETextCommit::Type)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetView,0,void __cdecl(TSharedPtr<FAssetViewItem,0> const & __ptr64,FString const & __ptr64,FSlateRect const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-ContentBrowser.dll!SAssetViewItem::HandleNameCommitted() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\contentbrowser\private\assetviewwidgets.cpp:508]
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetTileItem,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetTileItem,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!SInlineEditableTextBlock::OnTextBoxCommitted() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\widgets\text\sinlineeditabletextblock.cpp:292]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SInlineEditableTextBlock,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SInlineEditableTextBlock,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!SEditableText::OnEnter() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:911]
+UE4Editor-Slate.dll!FTextEditHelper::OnKeyDown() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\text\textedithelper.cpp:191]
+UE4Editor-Slate.dll!SEditableText::OnKeyDown() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:1518]
+UE4Editor-Slate.dll!<lambda_4f604f87f3ce3f5c3b6a1447676ad634>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3922]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_4f604f87f3ce3f5c3b6a1447676ad634> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:214]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_4f604f87f3ce3f5c3b6a1447676ad634>,FKeyEvent>() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:196]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3923]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3845]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:1259]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:1708]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:706]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsapplication.cpp:628]
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\launchengineloop.cpp:2392]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__tmainCRTStartup() [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll
+ntdll.dll
+ntdll.dll
+

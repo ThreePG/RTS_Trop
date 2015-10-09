@@ -1,0 +1,717 @@
+﻿[2015.10.01-06.53.54:145][  0]Log file open, 09/30/15 23:53:54
+[2015.10.01-06.53.54:145][  0]LogInit:Display: Running engine for game: MyRTS_TropicoStyle
+[2015.10.01-06.53.54:145][  0]LogInit:Display: RandInit(1772106322) SRandInit(1772106322).
+[2015.10.01-06.53.54:145][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.01-06.53.54:145][  0]LogStats: Stats thread started at 1.154354
+[2015.10.01-06.53.54:145][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.01-06.53.54:145][  0]LogInit: API Version: 2672455
+[2015.10.01-06.53.54:145][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.01-06.53.54:145][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.01-06.53.54:145][  0]LogInit: Build Configuration: Development
+[2015.10.01-06.53.54:145][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.01-06.53.54:145][  0]LogInit: Command line:  
+[2015.10.01-06.53.54:145][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.01-06.53.54:145][  0]LogInit: Rocket: 1
+[2015.10.01-06.53.54:202][  0]LogInit: Using libcurl 7.41.0
+[2015.10.01-06.53.54:202][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.01-06.53.54:202][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.01-06.53.54:202][  0]LogInit:  - other features:
+[2015.10.01-06.53.54:202][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.01-06.53.54:202][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.01-06.53.54:202][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.01-06.53.54:202][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.01-06.53.54:202][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.01-06.53.54:202][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.01-06.53.54:202][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.01-06.53.54:202][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.01-06.53.54:202][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.01-06.53.54:202][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.01-06.53.54:300][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.01-06.53.54:307][  0]LogInit: Object subsystem initialized
+[2015.10.01-06.53.54:309][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.01-06.53.54:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.01-06.53.54:354][  0]LogInit: Computer: JTSMITHFS111
+[2015.10.01-06.53.54:354][  0]LogInit: User: jtsmith
+[2015.10.01-06.53.54:354][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.01-06.53.54:354][  0]LogInit: High frequency timer resolution =3.312910 MHz
+[2015.10.01-06.53.54:354][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.10.01-06.53.54:354][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.01-06.53.54:354][  0]LogMemory: Process Physical Memory: 56.41 MB used, 56.41 MB peak
+[2015.10.01-06.53.54:354][  0]LogMemory: Process Virtual Memory: 58.08 MB used, 58.08 MB peak
+[2015.10.01-06.53.54:354][  0]LogMemory: Physical Memory: 3262.19 MB used, 8146.45 MB total
+[2015.10.01-06.53.54:354][  0]LogMemory: Virtual Memory: 340.10 MB used, 8388608.00 MB total
+[2015.10.01-06.53.54:834][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.01-06.53.55:842][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7570 (Feature Level 11_0)
+[2015.10.01-06.53.55:842][  0]LogD3D11RHI: Adapter has 1008MB of dedicated video memory, 0MB of dedicated system memory, and 3817MB of shared system memory, 1 output[s]
+[2015.10.01-06.53.55:842][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.01-06.53.55:853][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.01-06.53.55:854][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
+[2015.10.01-06.53.55:863][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.01-06.53.55:877][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Intermediate/Shaders/WorkingDirectory/10380/).
+[2015.10.01-06.53.55:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Intermediate/Shaders/tmp/1739B7764CBADD7750590A9B6D18E86D/'.
+[2015.10.01-06.53.55:877][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.01-06.54.00:979][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.01-06.54.00:990][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.01-06.54.01:002][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.01-06.54.01:013][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.01-06.54.01:084][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.01-06.54.01:146][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.01-06.54.01:191][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.01-06.54.01:256][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.01-06.54.01:301][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.01-06.54.01:368][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.01-06.54.01:448][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.01-06.54.01:487][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.01-06.54.01:528][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.01-06.54.01:694][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.01-06.54.01:737][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.01-06.54.01:784][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.01-06.54.01:838][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.01-06.54.01:838][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.01-06.54.02:765][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.01-06.54.03:322][  0]LogDerivedDataCache: Loaded boot cache 0.56s 44MB C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.01-06.54.03:322][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.01-06.54.03:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.01-06.54.03:323][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.01-06.54.03:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.01-06.54.03:323][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.01-06.54.03:506][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.01-06.54.03:518][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jtsmith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.01-06.54.06:117][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.01-06.54.06:117][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.01-06.54.06:260][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.01-06.54.06:260][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.01-06.54.07:176][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.01-06.54.28:717][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.01-06.54.29:242][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.10.01-06.54.33:792][  0]SourceControl: Info Source control is disabled
+[2015.10.01-06.54.34:324][  0]SourceControl: Info Source control is disabled
+[2015.10.01-06.54.34:382][  0]SourceControl: Info Source control is disabled
+[2015.10.01-06.54.34:456][  0]SourceControl: Info Source control is disabled
+[2015.10.01-06.54.36:020][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.01-06.54.36:440][  0]LogObj: 28380 objects as part of root set at end of initial load.
+[2015.10.01-06.54.36:440][  0]LogUObjectAllocator: 6044384 out of 0 bytes used by permanent object pool.
+[2015.10.01-06.54.36:735][  0]LogEngine: Initializing Engine...
+[2015.10.01-06.54.36:737][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.01-06.54.36:809][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.01-06.54.37:225][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.01-06.54.37:240][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.01-06.54.37:736][  0]LogInit: FAudioDevice initialized.
+[2015.10.01-06.54.37:758][  0]LogDerivedDataCache: Saved boot cache 0.02s 44MB C:/Users/jtsmith/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.01-06.54.37:761][  0]LogInit: Texture streaming: Enabled
+[2015.10.01-06.54.37:779][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.01-06.54.37:779][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.01-06.54.37:779][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6fa6e3274a8d5d72a75cbcbef6d297a7|3b8075bc1ed94341b886f5e4c6e1b23d|13e13887-07aa-43da-a8ee-6e00c985f4a0
+[2015.10.01-06.54.37:779][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.01-06.54.38:159][  0]LogInit: Transaction tracking system initialized
+[2015.10.01-06.54.38:649][  0]BlueprintLog: New page: Editor Load
+[2015.10.01-06.54.42:348][  0]LocalizationService: Info Localization service is disabled
+[2015.10.01-06.54.43:681][  0]LogConsoleResponse:Display: 
+[2015.10.01-06.54.46:728][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.01-06.54.48:441][  0]SourceControl: Info Source control is disabled
+[2015.10.01-06.54.58:141][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.01-06.54.58:223][  0]LightingResults: New page: Lighting Build
+[2015.10.01-06.54.58:226][  0]MapCheck: New page: Map Check
+[2015.10.01-06.54.58:226][  0]LightingResults: New page: Lighting Build
+[2015.10.01-06.54.58:234][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022AEB6A0
+[2015.10.01-06.55.01:682][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buildings/Commercial/Restaurant_BP.Restaurant_BP_C:UserConstructionScript; removing parent information, but keeping function
+[2015.10.01-06.55.02:493][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Buildings/Residential/Shack_BP.Shack_BP_C:UserConstructionScript; removing parent information, but keeping function
+[2015.10.01-06.55.09:570][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.10.01-06.55.10:923][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.01-06.55.10:924][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.01-06.55.11:026][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.759ms to complete.
+[2015.10.01-06.55.11:026][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 12.886
+[2015.10.01-06.55.11:154][  0]LogCollectionManager: Loaded 0 collections in 0.002305 seconds
+[2015.10.01-06.55.11:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Collections/' took 0.01s
+[2015.10.01-06.55.11:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/Developers/jtsmith/Collections/' took 0.01s
+[2015.10.01-06.55.11:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/Collections/' took 0.01s
+[2015.10.01-06.55.11:192][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1874 classes and 335 folders.
+[2015.10.01-06.55.11:197][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.01-06.55.11:213][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.01-06.55.12:792][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.01-06.55.12:855][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.01-06.55.12:995][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.01-06.55.13:001][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.01-06.55.13:023][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1abc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_298c_0///####STATCAT_Advanced####
+[2015.10.01-06.55.13:023][  0]LogLoad: Full Startup: 81.85 seconds (BP compile: 1.74 seconds)
+[2015.10.01-06.55.13:440][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.01-06.55.13:713][  1]LogRenderer: Reallocating scene render targets to support 832x556 (Frame:2).
+[2015.10.01-06.55.13:715][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.01-06.55.14:775][ 21]LogAssetRegistry: Asset discovery search completed in 45.5436 seconds
+[2015.10.01-06.55.14:775][ 21]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.10.01-06.55.14:775][ 21]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2015.10.01-06.55.47:538][384]LogRenderer: Reallocating scene render targets to support 1100x676 (Frame:1244).
+[2015.10.01-07.01.15:610][917]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.01-07.01.16:263][917]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.10.01-07.01.41:632][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.01.41:760][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000334198A0
+[2015.10.01-07.01.41:762][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042E22AC0
+[2015.10.01-07.05.13:371][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.05.13:424][690]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.053
+[2015.10.01-07.05.13:431][690]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT] ([1] browsable assets)...
+[2015.10.01-07.05.13:431][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT]
+[2015.10.01-07.05.13:511][690]LogSavePackage: Save=14.932491ms
+[2015.10.01-07.05.13:511][690]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BT_Auto15A48D3D1443A8ABD8D3742B7A94DE393.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT_Auto1.uasset'
+[2015.10.01-07.05.13:515][690]LogSavePackage: Total save time: 83.034251ms
+[2015.10.01-07.05.13:515][690]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT_Auto1.uasset
+[2015.10.01-07.05.13:515][690]LogFileHelpers: Auto-saving content packages took 0.091
+[2015.10.01-07.14.44:427][640]LogSavePackage: Save=14.466738ms
+[2015.10.01-07.14.44:427][640]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BTF02B585645F2037D8B34A68F820AAF49.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.10.01-07.14.44:430][640]LogSavePackage: Total save time: 78.085430ms
+[2015.10.01-07.14.44:430][640]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.10.01-07.14.46:800][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FA6E200
+[2015.10.01-07.14.50:637][756]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.15.14:118][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.15.14:156][402]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.SKEL_ReportForShift_TASK_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift.PackageMetaData'
+[2015.10.01-07.15.14:156][402]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.ReportForShift_TASK_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift.PackageMetaData'
+[2015.10.01-07.15.14:252][402]LogSavePackage: Save=69.753479ms
+[2015.10.01-07.15.14:252][402]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ReportForShift_TASK91586D4442B5D8E9B60E9A997B1F14E8.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.uasset'
+[2015.10.01-07.15.14:255][402]LogSavePackage: Total save time: 72.998058ms
+[2015.10.01-07.15.14:255][402]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.uasset
+[2015.10.01-07.15.14:534][402]LogSavePackage: Save=13.493575ms
+[2015.10.01-07.15.14:534][402]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BT2E5EE29A421583F96328698CC6595A03.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset'
+[2015.10.01-07.15.14:535][402]LogSavePackage: Total save time: 78.307893ms
+[2015.10.01-07.15.14:535][402]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.uasset
+[2015.10.01-07.15.14:626][404]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.
+[2015.10.01-07.15.25:657][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.15.25:696][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ReportForShift_TASK.ReportForShift_TASK_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.PackageMetaData'
+[2015.10.01-07.15.25:696][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ReportForShift_TASK.SKEL_ReportForShift_TASK_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ReportForShift_TASK.PackageMetaData'
+[2015.10.01-07.15.25:710][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.PackageMetaData'
+[2015.10.01-07.15.25:710][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_10.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.PackageMetaData'
+[2015.10.01-07.15.25:710][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_2.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.PackageMetaData'
+[2015.10.01-07.15.25:710][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_4.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.PackageMetaData'
+[2015.10.01-07.15.25:710][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.ConstructionWorker_BT:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_9.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_4' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/ConstructionWorker_BT.PackageMetaData'
+[2015.10.01-07.15.25:839][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckWorkValid_DEC.SKEL_CheckWorkValid_DEC_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid_DEC.PackageMetaData'
+[2015.10.01-07.15.25:839][782]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckWorkValid_DEC.CheckWorkValid_DEC_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/ConstructionWorker/Optimized/CheckWorkValid_DEC.PackageMetaData'
+[2015.10.01-07.15.25:925][782]LogSavePackage: Save=60.324909ms
+[2015.10.01-07.15.25:925][782]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ReportForShift_TASKB905112D451F7D753B74A6A684658241.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/ReportForShift_TASK.uasset'
+[2015.10.01-07.15.25:927][782]LogSavePackage: Total save time: 62.806416ms
+[2015.10.01-07.15.25:927][782]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/ReportForShift_TASK.uasset
+[2015.10.01-07.15.25:971][782]LogSavePackage: Save=33.427410ms
+[2015.10.01-07.15.25:972][782]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BT09A167F84E24F2EF3CA8958A07AAA6E9.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.uasset'
+[2015.10.01-07.15.25:975][782]LogSavePackage: Total save time: 36.735982ms
+[2015.10.01-07.15.25:975][782]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BT.uasset
+[2015.10.01-07.15.25:987][782]LogSavePackage: Save=2.105400ms
+[2015.10.01-07.15.25:987][782]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/ConstructionWorker_BB402222D84B479D7C68A1138B73F3AD64.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BB.uasset'
+[2015.10.01-07.15.25:989][782]LogSavePackage: Total save time: 4.348744ms
+[2015.10.01-07.15.25:989][782]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/ConstructionWorker_BB.uasset
+[2015.10.01-07.15.26:041][782]LogSavePackage: Save=41.821541ms
+[2015.10.01-07.15.26:041][782]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/CheckWorkValid_DEC3BB81A534E8BE9223574038127E90D76.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/CheckWorkValid_DEC.uasset'
+[2015.10.01-07.15.26:043][782]LogSavePackage: Total save time: 44.223052ms
+[2015.10.01-07.15.26:043][782]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/ConstructionWorker/CheckWorkValid_DEC.uasset
+[2015.10.01-07.15.26:772][782]LogSavePackage: Save=70.635483ms
+[2015.10.01-07.15.26:772][782]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController6C00A4044AA714B56A738BB1340FA3DF.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.10.01-07.15.26:773][782]LogSavePackage: Total save time: 200.534273ms
+[2015.10.01-07.15.26:773][782]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.10.01-07.15.26:923][782]LogSavePackage: Save=81.552773ms
+[2015.10.01-07.15.26:923][782]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController34C366684652D60473018DBB28C0E5AB.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.10.01-07.15.26:926][782]LogSavePackage: Total save time: 143.580418ms
+[2015.10.01-07.15.26:926][782]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.10.01-07.15.27:142][786]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/ReportForShift_TASK.
+[2015.10.01-07.15.27:156][786]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/ConstructionWorker/CheckWorkValid_DEC.
+[2015.10.01-07.16.09:689][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.16.09:690][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.01-07.16.33:437][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.16.37:614][627]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.16.37:614][627]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.01-07.16.51:352][901]LogBlueprint:Error: [compiler TempDestroyAssignment_TASK] Error Could not find a function named "DestroyAssignment" in 'NewAICharacter_BP_C'.
+Make sure 'NewAICharacter_BP_C' has been compiled for  Destroy Assignment 
+[2015.10.01-07.16.51:407][901]LogBlueprint:Warning: [compiler TempDestroyAssignment_TASK] Warning [1380.20] Compile of TempDestroyAssignment_TASK failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2015.10.01-07.16.51:407][901]LogBlueprint:Warning: [compiler TempDestroyAssignment_TASK] Warning [1380.26] Compile of TempDestroyAssignment_TASK failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.10.01-07.16.51:409][901]LogBlueprint:Warning: [compiler TempDestroyAssignment_TASK] Warning [1380.26] Compile of TempDestroyAssignment_TASK failed. 1 Fatal Issue(s) 2 Warning(s) [in 1 ms]
+[2015.10.01-07.16.51:429][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.16.51:429][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.01-07.17.03:249][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.17.19:101][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.17.19:101][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.01-07.17.55:019][612]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2015.10.01-07.20.16:048][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.20.16:110][851]LogSavePackage: Save=1.617913ms
+[2015.10.01-07.20.16:110][851]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Combined_BT7F1FCDF5443F02681DFC05BAE095C872.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BT.uasset'
+[2015.10.01-07.20.16:113][851]LogSavePackage: Total save time: 4.937351ms
+[2015.10.01-07.20.16:113][851]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BT.uasset
+[2015.10.01-07.20.16:125][851]LogSavePackage: Save=1.348060ms
+[2015.10.01-07.20.16:125][851]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Combined_BBD62C64DB40F37B60DCEA038160282680.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BB.uasset'
+[2015.10.01-07.20.16:128][851]LogSavePackage: Total save time: 3.863070ms
+[2015.10.01-07.20.16:128][851]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BB.uasset
+[2015.10.01-07.20.50:644][204]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.01-07.20.51:074][204]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/BTService_BlueprintBase_New.
+[2015.10.01-07.21.19:851][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.21.19:894][523]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/AIState_SERV.SKEL_AIState_SERV_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2015.10.01-07.21.19:894][523]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/AIState_SERV.AIState_SERV_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2015.10.01-07.21.19:928][523]LogSavePackage: Save=3.878161ms
+[2015.10.01-07.21.19:928][523]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/AIState_SERVCD13985B474034BD5FA4E69C513A3F03.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/AIState_SERV.uasset'
+[2015.10.01-07.21.19:930][523]LogSavePackage: Total save time: 6.890018ms
+[2015.10.01-07.21.19:931][523]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/AIState_SERV.uasset
+[2015.10.01-07.21.20:230][525]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/AIState_SERV.
+[2015.10.01-07.21.46:654][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.21.46:654][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.01-07.21.46:697][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/AIState_SERV.PackageMetaData'
+[2015.10.01-07.21.46:697][320]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C' ref from Metadata '/Game/TopDownBP/Blueprints/AI/AIState_SERV.PackageMetaData'
+[2015.10.01-07.21.46:731][320]LogSavePackage: Save=3.007024ms
+[2015.10.01-07.21.46:731][320]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIState2BCA5E2F4DE0410951A8948B84D65405.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset'
+[2015.10.01-07.21.46:733][320]LogSavePackage: Total save time: 5.632814ms
+[2015.10.01-07.21.46:733][320]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset
+[2015.10.01-07.21.47:035][322]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AI/S_AIState.
+[2015.10.01-07.22.00:908][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.22.00:908][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.01-07.22.01:047][701]LogSavePackage: Save=3.159458ms
+[2015.10.01-07.22.01:047][701]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Combined_BT4D77683C49982A81973A9D818AE91312.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BT.uasset'
+[2015.10.01-07.22.01:051][701]LogSavePackage: Total save time: 80.892328ms
+[2015.10.01-07.22.01:051][701]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BT.uasset
+[2015.10.01-07.22.43:558][499]LogEnum:Warning: Enum Text AIStates_ENUM::NewEnumerator0 for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.43:566][499]LogEnum:Warning: Enum Text AIStates_ENUM_MAX for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.43:567][499]LogEnum:Warning: Enum Text AIStates_ENUM_MAX for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.43:786][524]LogEnum:Warning: Enum Text AIStates_ENUM::NewEnumerator1 for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.43:793][524]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.43:793][524]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:022][551]LogEnum:Warning: Enum Text AIStates_ENUM::NewEnumerator2 for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:030][551]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:030][551]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:229][574]LogEnum:Warning: Enum Text AIStates_ENUM::NewEnumerator3 for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:240][574]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:241][574]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:472][601]LogEnum:Warning: Enum Text AIStates_ENUM::NewEnumerator4 for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:481][601]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.44:481][601]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.49:179][127]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.49:179][127]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.59:221][267]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.22.59:222][267]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.03:104][707]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.03:104][707]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.07:540][217]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.07:540][217]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.11:686][697]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.11:686][697]LogEnum:Warning: Enum Text (INVALID) for Enum AIStates_ENUM failed to resolve to any value
+[2015.10.01-07.23.21:007][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/ENUMs/AIStates_ENUM" FILE="../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/ENUMs/AIStates_ENUM.uasset" SILENT=true
+[2015.10.01-07.23.21:011][797]LogSavePackage: Save=1.623950ms
+[2015.10.01-07.23.21:011][797]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/AIStates_ENUM9C7688DD4EBF0B424E50EAAE4AC4DC4F.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/ENUMs/AIStates_ENUM.uasset'
+[2015.10.01-07.23.21:012][797]LogSavePackage: Total save time: 3.716066ms
+[2015.10.01-07.23.21:012][797]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/ENUMs/AIStates_ENUM.uasset
+[2015.10.01-07.23.35:362][306]BlueprintLog: New page: Compile S_AIState
+[2015.10.01-07.23.35:413][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.23.35:445][306]BlueprintEditorCompileResults: Info [1784.30] Compile of S_AIState successful! [in 83 ms]
+[2015.10.01-07.23.35:994][353]LogSavePackage: Save=4.361121ms
+[2015.10.01-07.23.35:994][353]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIState16292EA84E168B9B4DB732A38A192941.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset'
+[2015.10.01-07.23.35:997][353]LogSavePackage: Total save time: 67.906763ms
+[2015.10.01-07.23.35:997][353]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset
+[2015.10.01-07.38.37:034][227]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.01-07.39.26:580][651]LogSavePackage: Save=1.550902ms
+[2015.10.01-07.39.26:580][651]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Combined_BBC72F33C0483E1FAF7B26FABA95AA926C.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BB.uasset'
+[2015.10.01-07.39.26:582][651]LogSavePackage: Total save time: 65.149069ms
+[2015.10.01-07.39.26:582][651]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BB.uasset
+[2015.10.01-07.39.35:382][544]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.41:745][210]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.49:982][ 12]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.49:984][ 12]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.49:986][ 12]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.49:995][ 12]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.52:635][265]BlueprintLog: New page: Compile S_AIState
+[2015.10.01-07.39.52:712][265]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.52:714][265]BlueprintEditorCompileResults: Info [2761.59] Compile of S_AIState successful! [in 78 ms]
+[2015.10.01-07.39.52:721][265]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.54:420][415]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.54:428][415]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.55:074][475]BlueprintLog: New page: Compile S_AIState
+[2015.10.01-07.39.55:171][475]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.39.55:173][475]BlueprintEditorCompileResults: Info [2764.05] Compile of S_AIState successful! [in 99 ms]
+[2015.10.01-07.39.55:181][475]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.40.19:752][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.031
+[2015.10.01-07.40.19:759][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/S_AIState] ([1] browsable assets)...
+[2015.10.01-07.40.19:759][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/S_AIState]
+[2015.10.01-07.40.19:826][330]LogSavePackage: Save=4.880000ms
+[2015.10.01-07.40.19:826][330]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIState_Auto24E4C8BD34F721A4FE3F025972EACA57F.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/S_AIState_Auto2.uasset'
+[2015.10.01-07.40.19:827][330]LogSavePackage: Total save time: 66.936623ms
+[2015.10.01-07.40.19:827][330]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/S_AIState_Auto2.uasset
+[2015.10.01-07.40.19:827][330]LogFileHelpers: Auto-saving content packages took 0.074
+[2015.10.01-07.40.57:916][642]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.40.58:598][697]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.ConstructionManager_BP:JobDelegate.K2Node_FunctionResult_10 or K2Node_FunctionResult /Game/TopDownBP/HUDs/Proxy_HUD.Proxy_HUD:SetHudClock.K2Node_FunctionResult_10
+[2015.10.01-07.40.58:598][697]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.ConstructionManager_BP:JobDelegate.K2Node_FunctionResult_10 or K2Node_FunctionResult /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionResult_10
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionResult_10.EdGraphPin_55191) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_Composite_74.EdGraphPin_22210).  Import failed...
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_10.EdGraphPin_55191''
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionEntry_2248.EdGraphPin_55182) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_Composite_74.EdGraphPin_22211).  Import failed...
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_2248.EdGraphPin_55182''
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionEntry_2248.EdGraphPin_55183) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_Composite_74.EdGraphPin_22212).  Import failed...
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_2248.EdGraphPin_55183''
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionEntry_2248.EdGraphPin_55184) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_Composite_74.EdGraphPin_22213).  Import failed...
+[2015.10.01-07.40.58:598][697]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_2248.EdGraphPin_55184''
+[2015.10.01-07.40.58:623][697]LogBlueprint:Warning: [S_AIState] CreatePinForVariable: 'ControllerRef' variable not found. Base class was probably changed.
+[2015.10.01-07.40.58:623][697]LogBlueprint:Warning: [S_AIState] CreatePinForVariable: 'PawnRef' variable not found. Base class was probably changed.
+[2015.10.01-07.40.58:623][697]LogBlueprint:Warning: [S_AIState] CreatePinForVariable: 'ControllerRef' variable not found. Base class was probably changed.
+[2015.10.01-07.40.58:623][697]LogBlueprint:Warning: [S_AIState] CreatePinForVariable: 'ControllerRef' variable not found. Base class was probably changed.
+[2015.10.01-07.40.58:624][697]LogBlueprint:Warning: [S_AIState] CreatePinForVariable: 'PawnRef' variable not found. Base class was probably changed.
+[2015.10.01-07.40.58:624][697]LogBlueprint:Warning: [S_AIState] CreatePinForVariable: 'PawnRef' variable not found. Base class was probably changed.
+[2015.10.01-07.41.12:032][856]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.16:675][309]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.17:762][396]BlueprintLog: New page: Compile S_AIState
+[2015.10.01-07.41.17:848][396]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.17:850][396]BlueprintEditorCompileResults: Info [2846.73] Compile of S_AIState successful! [in 88 ms]
+[2015.10.01-07.41.17:862][396]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.18:610][460]LogSavePackage: Save=24.710602ms
+[2015.10.01-07.41.18:610][460]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIStateA096969A4DE751D83CC9A9B139B95830.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset'
+[2015.10.01-07.41.18:613][460]LogSavePackage: Total save time: 86.828195ms
+[2015.10.01-07.41.18:613][460]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset
+[2015.10.01-07.41.53:573][670]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.54:270][735]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.54:281][735]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.55:637][885]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.56:113][934]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.56:124][934]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.41.58:331][165]LogSavePackage: Save=26.431747ms
+[2015.10.01-07.41.58:331][165]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIState4545C713470AFC44D09860BFC5D05901.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset'
+[2015.10.01-07.41.58:334][165]LogSavePackage: Total save time: 91.255121ms
+[2015.10.01-07.41.58:334][165]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset
+[2015.10.01-07.42.01:563][489]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.43.56:164][635]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_VariableGet_4305 or K2Node_VariableGet /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_VariableGet_4305
+[2015.10.01-07.43.56:165][635]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_VariableGet_4305.EdGraphPin_55198) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_VariableGet_4302.EdGraphPin_22261).  Import failed...
+[2015.10.01-07.43.56:165][635]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_4305.EdGraphPin_55198''
+[2015.10.01-07.43.56:165][635]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_BreakStruct_349 or K2Node_BreakStruct /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_BreakStruct_349
+[2015.10.01-07.43.56:165][635]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_BreakStruct_349.EdGraphPin_55203) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_VariableGet_4305.EdGraphPin_55197).  Import failed...
+[2015.10.01-07.43.56:165][635]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_BreakStruct_349.EdGraphPin_55203''
+[2015.10.01-07.43.56:166][635]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_CallFunction_10513 or K2Node_CallFunction /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_CallFunction_10513
+[2015.10.01-07.43.56:166][635]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_CallFunction_10513.EdGraphPin_55225) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_BreakStruct_349.EdGraphPin_55208).  Import failed...
+[2015.10.01-07.43.56:166][635]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10513.EdGraphPin_55225''
+[2015.10.01-07.43.56:167][635]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.ConstructionManager_BP:JobDelegate.K2Node_FunctionResult_10 or K2Node_FunctionResult /Game/TopDownBP/HUDs/Proxy_HUD.Proxy_HUD:SetHudClock.K2Node_FunctionResult_10
+[2015.10.01-07.43.56:167][635]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/TopDownBP/Blueprints/Construction/ConstructionManager_BP.ConstructionManager_BP:JobDelegate.K2Node_FunctionResult_10 or K2Node_FunctionResult /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionResult_10
+[2015.10.01-07.43.56:167][635]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/AI/Residential/Homeless_DEC.Homeless_DEC:PerformConditionCheckAI.K2Node_FunctionResult_10.EdGraphPin_55192) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/AI/S_AIState.S_AIState:EventGraph.K2Node_CallFunction_10513.EdGraphPin_55227).  Import failed...
+[2015.10.01-07.43.56:167][635]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_10.EdGraphPin_55192''
+[2015.10.01-07.47.21:204][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-07.47.21:232][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BBBD260
+[2015.10.01-07.47.21:349][964]LogSavePackage: Save=36.836800ms
+[2015.10.01-07.47.21:349][964]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIStateEE1F4A454ABDDC8250AF0188CE0694F6.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset'
+[2015.10.01-07.47.21:352][964]LogSavePackage: Total save time: 100.314829ms
+[2015.10.01-07.47.21:352][964]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset
+[2015.10.01-07.47.34:756][514]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.48.05:237][501]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.48.07:904][790]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.48.10:173][  4]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.50.38:210][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.034
+[2015.10.01-07.50.38:217][462]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/S_AIState] ([1] browsable assets)...
+[2015.10.01-07.50.38:217][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/S_AIState]
+[2015.10.01-07.50.38:320][462]LogSavePackage: Save=40.333424ms
+[2015.10.01-07.50.38:320][462]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIState_Auto3E7610F1740860565FDB69099F2E042AE.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/S_AIState_Auto3.uasset'
+[2015.10.01-07.50.38:321][462]LogSavePackage: Total save time: 103.351131ms
+[2015.10.01-07.50.38:322][462]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/S_AIState_Auto3.uasset
+[2015.10.01-07.50.38:322][462]LogFileHelpers: Auto-saving content packages took 0.111
+[2015.10.01-07.51.05:078][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-07.51.05:578][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-07.51.06:105][389]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-07.51.06:608][389]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.01-07.51.20:399][775]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'S_AIState', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/S_AIState.SKEL_S_AIState_C'
+[2015.10.01-07.51.39:055][492]BlueprintLog: New page: Compile S_AIState
+[2015.10.01-07.51.39:155][492]BlueprintEditorCompileResults: Info [3467.76] Compile of S_AIState successful! [in 99 ms]
+[2015.10.01-07.51.40:006][563]LogSavePackage: Save=38.483387ms
+[2015.10.01-07.51.40:006][563]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/S_AIStateBCC77392470C987886A6D2B6311C7549.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset'
+[2015.10.01-07.51.40:009][563]LogSavePackage: Total save time: 102.137093ms
+[2015.10.01-07.51.40:009][563]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/S_AIState.uasset
+[2015.10.01-07.54.13:777][756]LogSavePackage: Save=8.019234ms
+[2015.10.01-07.54.13:777][756]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/Combined_BTB76C53F34E11A595CDB109BAE7A67225.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BT.uasset'
+[2015.10.01-07.54.13:783][756]LogSavePackage: Total save time: 98.418612ms
+[2015.10.01-07.54.13:783][756]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/Combined_BT.uasset
+[2015.10.01-08.06.23:017][388]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.06.56:873][ 36]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.04:218][790]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.15:890][  1]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.15:901][  1]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.15:911][  1]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.15:933][  1]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.20:149][415]BlueprintLog: New page: Compile TestAIController
+[2015.10.01-08.07.20:903][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-08.07.20:906][415]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.07.20:922][415]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.07.20:936][415]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.20:996][415]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288C19E0
+[2015.10.01-08.07.20:996][415]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.21:000][415]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.10.01-08.07.21:000][415]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.10.01-08.07.21:000][415]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.10.01-08.07.21:000][415]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.10.01-08.07.21:000][415]BlueprintEditorCompileResults: Info [4409.42] Compile of TestAIController successful! [in 850 ms]
+[2015.10.01-08.07.21:027][415]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.07.25:484][897]LogSavePackage: Save=70.740524ms
+[2015.10.01-08.07.25:484][897]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController71A67EE448FF91194F6BC9914475098D.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.10.01-08.07.25:487][897]LogSavePackage: Total save time: 135.616723ms
+[2015.10.01-08.07.25:487][897]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.10.01-08.08.03:897][324]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.10.24:228][624]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.10.25:222][707]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.10.25:755][759]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.10.33:158][453]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.NewAICharacter_BP_C'
+[2015.10.01-08.11.41:969][446]BlueprintLog: New page: Compile TestAIController
+[2015.10.01-08.11.42:378][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-08.11.42:383][446]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.11.42:392][446]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.11.42:475][446]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.10.01-08.11.42:475][446]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.10.01-08.11.42:475][446]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.10.01-08.11.42:476][446]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.10.01-08.11.42:476][446]BlueprintEditorCompileResults: Info [4670.88] Compile of TestAIController successful! [in 506 ms]
+[2015.10.01-08.11.43:150][490]LogSavePackage: Save=122.108055ms
+[2015.10.01-08.11.43:150][490]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIController4C43142F4501CD85991DC7B8CCE8AAA3.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.10.01-08.11.43:153][490]LogSavePackage: Total save time: 192.636080ms
+[2015.10.01-08.11.43:153][490]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.10.01-08.13.56:232][960]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.13.57:622][ 69]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.13.58:307][140]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.12:781][563]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.25:343][808]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.26:037][856]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.26:686][914]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.31:690][399]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.42:915][444]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.14.48:319][914]BlueprintLog: New page: Compile TestAIController
+[2015.10.01-08.14.48:446][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-08.14.48:450][914]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.14.48:523][914]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.10.01-08.14.48:524][914]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.10.01-08.14.48:524][914]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.10.01-08.14.48:524][914]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.10.01-08.14.48:524][914]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True 
+[2015.10.01-08.14.48:524][914]BlueprintEditorCompileResults: Info [4856.91] Compile of TestAIController successful! [in 204 ms]
+[2015.10.01-08.15.12:014][  9]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TestAIController', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/TestAIController.SKEL_TestAIController_C'
+[2015.10.01-08.15.36:131][627]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-08.15.36:352][627]LogSavePackage: Save=101.340813ms
+[2015.10.01-08.15.36:353][627]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIControllerB36B15924A0388BEFB406E97B95A095C.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.10.01-08.15.36:355][627]LogSavePackage: Total save time: 166.883796ms
+[2015.10.01-08.15.36:355][627]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.10.01-08.15.37:136][684]BlueprintLog: New page: Compile TestAIController
+[2015.10.01-08.15.37:265][684]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.15.37:332][684]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.10.01-08.15.37:332][684]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.10.01-08.15.37:332][684]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.10.01-08.15.37:332][684]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.10.01-08.15.37:332][684]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True 
+[2015.10.01-08.15.37:332][684]BlueprintEditorCompileResults: Info [4905.71] Compile of TestAIController successful! [in 195 ms]
+[2015.10.01-08.16.27:185][110]BlueprintLog: New page: Compile TestAIController
+[2015.10.01-08.16.27:497][110]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-08.16.27:500][110]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.16.27:507][110]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'NewAICharacter_BP', cached variable property's owner is '/Game/TopDownBP/Blueprints/AI/NewAICharacter_BP.SKEL_NewAICharacter_BP_C'
+[2015.10.01-08.16.27:580][110]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Unemployed 
+[2015.10.01-08.16.27:580][110]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Miner 
+[2015.10.01-08.16.27:580][110]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Restaurant Service 
+[2015.10.01-08.16.27:580][110]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Farmer 
+[2015.10.01-08.16.27:580][110]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True 
+[2015.10.01-08.16.27:580][110]BlueprintEditorCompileResults: Info [4955.96] Compile of TestAIController successful! [in 394 ms]
+[2015.10.01-08.17.16:722][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.01-08.17.16:950][746]LogSavePackage: Save=118.111572ms
+[2015.10.01-08.17.16:950][746]LogSavePackage: Moving '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Saved/TestAIControllerD408DA914336C1424E560E8B4D925FC3.tmp' to '../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset'
+[2015.10.01-08.17.16:953][746]LogSavePackage: Total save time: 183.901463ms
+[2015.10.01-08.17.16:953][746]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jtsmith/Desktop/Unreal/MyRTS_TropicoStyle 4.9/Content/TopDownBP/Blueprints/AI/TestAIController.uasset
+[2015.10.01-08.17.19:337][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.01-08.17.19:883][933]Cmd: QUIT_EDITOR
+[2015.10.01-08.17.20:384][933]LogExit: Preparing to exit.
+[2015.10.01-08.17.23:703][933]LogExit: Editor shut down
+[2015.10.01-08.17.23:703][933]LogExit: Transaction tracking system shut down
+[2015.10.01-08.17.24:739][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028BFA340
+[2015.10.01-08.17.24:740][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D347A60
+[2015.10.01-08.17.24:741][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AEB3920
+[2015.10.01-08.17.24:741][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032C2B4C0
+[2015.10.01-08.17.24:741][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AE3D120
+[2015.10.01-08.17.24:741][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AE3D9E0
+[2015.10.01-08.17.24:743][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041D55F80
+[2015.10.01-08.17.29:368][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003143A480
+[2015.10.01-08.17.29:368][933]LogExit: Object subsystem successfully closed.
+[2015.10.01-08.17.31:089][933]LogD3D11RHI: Shutdown
+[2015.10.01-08.17.31:121][933]LogD3D11RHI: CleanupD3DDevice
+[2015.10.01-08.17.31:336][933]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.01-08.17.33:285][933]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.01-08.17.33:285][933]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.10.01-08.17.33:285][933]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.10.01-08.17.33:315][933]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.10.01-08.17.33:315][933]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.10.01-08.17.33:315][933]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.10.01-08.17.33:418][933]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.10.01-08.17.33:418][933]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.10.01-08.17.33:450][933]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.10.01-08.17.33:558][933]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.10.01-08.17.33:587][933]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.10.01-08.17.33:665][933]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.10.01-08.17.33:665][933]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.10.01-08.17.33:665][933]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.10.01-08.17.33:665][933]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.10.01-08.17.33:665][933]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.10.01-08.17.33:665][933]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.10.01-08.17.33:691][933]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.10.01-08.17.33:691][933]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.10.01-08.17.33:691][933]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.10.01-08.17.33:691][933]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.10.01-08.17.33:752][933]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.10.01-08.17.33:784][933]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.10.01-08.17.33:943][933]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.10.01-08.17.33:943][933]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.10.01-08.17.33:944][933]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.10.01-08.17.33:944][933]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.10.01-08.17.34:541][933]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.10.01-08.17.34:577][933]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.10.01-08.17.34:577][933]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.10.01-08.17.34:577][933]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.10.01-08.17.34:588][933]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.10.01-08.17.34:588][933]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.10.01-08.17.34:588][933]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.10.01-08.17.34:604][933]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.10.01-08.17.34:604][933]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.10.01-08.17.34:604][933]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.10.01-08.17.34:604][933]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.10.01-08.17.34:633][933]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.10.01-08.17.34:633][933]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.10.01-08.17.34:640][933]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.10.01-08.17.34:686][933]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.10.01-08.17.34:694][933]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.10.01-08.17.34:694][933]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.10.01-08.17.34:694][933]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.10.01-08.17.34:709][933]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.10.01-08.17.34:722][933]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.10.01-08.17.34:745][933]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.10.01-08.17.34:798][933]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.10.01-08.17.34:798][933]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.10.01-08.17.34:807][933]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.10.01-08.17.34:807][933]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.10.01-08.17.34:848][933]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.10.01-08.17.34:848][933]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.10.01-08.17.34:848][933]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.10.01-08.17.34:849][933]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.10.01-08.17.34:849][933]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.10.01-08.17.34:862][933]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.10.01-08.17.34:862][933]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.10.01-08.17.34:862][933]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.10.01-08.17.34:862][933]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.10.01-08.17.34:862][933]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.10.01-08.17.34:876][933]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.10.01-08.17.34:876][933]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.10.01-08.17.34:876][933]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.10.01-08.17.34:876][933]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.10.01-08.17.34:887][933]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.10.01-08.17.34:887][933]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.10.01-08.17.34:887][933]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.10.01-08.17.34:976][933]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.10.01-08.17.34:993][933]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.10.01-08.17.34:993][933]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.10.01-08.17.34:994][933]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.10.01-08.17.34:994][933]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.10.01-08.17.34:994][933]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.10.01-08.17.34:994][933]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.10.01-08.17.34:994][933]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.10.01-08.17.35:050][933]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.10.01-08.17.35:066][933]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.10.01-08.17.35:066][933]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.10.01-08.17.35:066][933]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.10.01-08.17.35:114][933]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.10.01-08.17.35:148][933]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.10.01-08.17.35:148][933]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.10.01-08.17.35:148][933]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.10.01-08.17.35:168][933]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.10.01-08.17.35:168][933]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.10.01-08.17.35:188][933]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.10.01-08.17.35:188][933]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.10.01-08.17.35:188][933]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.10.01-08.17.35:208][933]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.10.01-08.17.35:215][933]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.10.01-08.17.35:224][933]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.10.01-08.17.35:236][933]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.10.01-08.17.35:236][933]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.10.01-08.17.35:258][933]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.10.01-08.17.35:268][933]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.10.01-08.17.35:280][933]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.10.01-08.17.35:298][933]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.10.01-08.17.35:298][933]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.10.01-08.17.35:298][933]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.10.01-08.17.35:313][933]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.10.01-08.17.35:313][933]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.10.01-08.17.35:369][933]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.10.01-08.17.35:370][933]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.10.01-08.17.35:398][933]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.10.01-08.17.35:498][933]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.10.01-08.17.35:498][933]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.10.01-08.17.35:527][933]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.10.01-08.17.35:571][933]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.10.01-08.17.35:571][933]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.10.01-08.17.35:596][933]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.10.01-08.17.35:596][933]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (79)
+[2015.10.01-08.17.35:616][933]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.01-08.17.35:616][933]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.01-08.17.35:616][933]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.01-08.17.35:616][933]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.01-08.17.35:616][933]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.01-08.17.35:640][933]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.01-08.17.35:640][933]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.01-08.17.35:640][933]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.01-08.17.35:664][933]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.01-08.17.35:683][933]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.01-08.17.35:699][933]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.01-08.17.35:710][933]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.01-08.17.35:710][933]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.01-08.17.35:712][933]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.01-08.17.35:724][933]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.01-08.17.35:725][933]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.01-08.17.35:806][933]LogDerivedDataCache: Shutdown
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.01-08.17.35:806][933]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.01-08.17.35:820][933]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.01-08.17.35:821][933]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.01-08.17.37:821][933]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.01-08.17.37:851][933]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.01-08.17.37:851][933]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.01-08.17.37:860][933]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.01-08.17.37:860][933]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.01-08.17.37:860][933]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.01-08.17.37:882][933]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.01-08.17.37:898][933]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.01-08.17.37:898][933]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.01-08.17.37:898][933]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.01-08.17.37:898][933]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.01-08.17.37:898][933]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.01-08.17.37:898][933]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.01-08.17.37:908][933]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.01-08.17.37:908][933]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.01-08.17.37:917][933]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.01-08.17.37:930][933]LogExit: Exiting.
+[2015.10.01-08.17.37:960][933]Log file closed, 10/01/15 01:17:37
