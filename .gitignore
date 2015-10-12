@@ -43,11 +43,14 @@ Temporary Items
 .apdisk
 
 # Recommended from UE4 wiki
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
+Git_RTS_Tropo/Binaries
+Git_RTS_Tropo/DerivedDataCache
+Git_RTS_Tropo/Intermediate
+Git_RTS_Tropo/Saved
 
 *.sln
 *.sdf
 *.suo
+*.log
+
+
